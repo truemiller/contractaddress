@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "chains": ["songbird", "avalanche"]
+  },
+  {
+    "slug": "elk-finance",
+    "name": "Elk Finance",
+    "chains": [
+      "avalanche",
+      "arbitrum",
+      "aurora",
+      "binance-smart-chain",
+      "cronos",
+      "ethereum",
+      "fantom",
+      "fuse",
+      "harmony",
+      "huobi",
+      "iotex",
+      "kcc",
+      "moonriver",
+      "okc",
+      "optimism",
+      "polygon",
+      "gnosis",
+      "hoo",
+      "telos",
+      "elastos"
+    ]
+  },
+  {
+    "slug": "avalanche",
+    "name": "Avalanche",
+    "chains": ["avalanche"]
+  },
+  {
+    "slug": "trader-joe",
+    "name": "Trader Joe",
+    "chains": ["avalanche"]
+  },
+  {
+    "slug": "gmx",
+    "name": "GMX",
+    "chains": ["avalanche", "arbitrum"]
+  },
+  {
+    "slug": "stargate",
+    "name": "Stargate",
+    "chains": [
+      "avalanche",
+      "arbitrum",
+      "binance-smart-chain",
+      "polygon",
+      "optimism",
+      "fantom"
+    ]
+  },
+  {
+    "slug": "uniswap",
+    "name": "Uniswap",
+    "chains": ["ethereum", "polygon", "arbitrum", "optimism", "celo"]
+  },
+  {
+    "slug": "curve",
+    "name": "Curve",
+    "chains": [
+      "ethereum",
+      "polygon",
+      "arbitrum",
+      "optimism",
+      "fantom",
+      "avalanche",
+      "moonriver",
+      "gnosis",
+      "kava",
+      "aurora",
+      "harmony"
+    ]
+  },
+  {
+    "slug": "sushi",
+    "name": "Sushi",
+    "chains": ["avalanche", "arbitrum"]
+  },
+  {
+    "slug": "avalanche-bridge",
+    "name": "Avalanche Bridge",
+    "chains": ["avalanche"]
+  }
+]

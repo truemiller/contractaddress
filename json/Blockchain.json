@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "ethereum",
+    "name": "Ethereum"
+  },
+  {
+    "slug": "binance-smart-chain",
+    "name": "BNB Chain"
+  },
+  {
+    "slug": "solana",
+    "name": "Solana"
+  },
+  {
+    "slug": "huobi",
+    "name": "Huobi Eco Chain"
+  },
+  {
+    "slug": "avalanche",
+    "name": "Avalanche C-Chain"
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon Matic"
+  },
+  {
+    "slug": "iotex",
+    "name": "IoTeX"
+  },
+  {
+    "slug": "fantom",
+    "name": "Fantom"
+  },
+  {
+    "slug": "harmony",
+    "name": "Harmony One"
+  },
+  {
+    "slug": "okc",
+    "name": "OKExChain"
+  },
+  {
+    "slug": "kcc",
+    "name": "Kucoin Community Chain"
+  },
+  {
+    "slug": "kardiachain",
+    "name": "KardiaChain"
+  },
+  {
+    "slug": "arbitrum",
+    "name": "Arbitrum"
+  },
+  {
+    "slug": "moonriver",
+    "name": "Moonriver"
+  },
+  {
+    "slug": "optimism",
+    "name": "Optimism"
+  },
+  {
+    "slug": "cronos",
+    "name": "Cronos"
+  },
+  {
+    "slug": "boba",
+    "name": "Boba Network"
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora"
+  },
+  {
+    "slug": "metis-andromeda",
+    "name": "Metis Andromeda"
+  },
+  {
+    "slug": "fuse",
+    "name": "Fuse"
+  },
+  {
+    "slug": "meter",
+    "name": "Meter"
+  },
+  {
+    "slug": "tomochain",
+    "name": "Tomochain"
+  },
+  {
+    "slug": "celo",
+    "name": "Celo"
+  },
+  {
+    "slug": "kava",
+    "name": "Kava"
+  },
+  {
+    "slug": "gnosis",
+    "name": "Gnosis"
+  },
+  {
+    "slug": "elastos",
+    "name": "Elastos"
+  },
+  {
+    "slug": "hoo",
+    "name": "Hoo"
+  },
+  {
+    "slug": "telos",
+    "name": "Telos"
+  }
+]

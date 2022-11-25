@@ -1,0 +1,16 @@
+[
+  {
+    "projectSlug": "gmx",
+    "name": "GMX Token",
+    "contracts": [
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x62edc0692BD897D2295872a9FFCac5425011c661"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a"
+      }
+    ]
+  }
+]

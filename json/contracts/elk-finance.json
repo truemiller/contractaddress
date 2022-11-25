@@ -1,0 +1,92 @@
+[
+  {
+    "projectSlug": "pangolin",
+    "name": "ELK Token",
+    "contracts": [
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "huobi",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "gnosis",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "kcc",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "okc",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "elastos",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "hoo",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "telos",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "cronos",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "fuse",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      },
+      {
+        "blockchainSlug": "iotex",
+        "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE"
+      }
+    ]
+  },
+  {
+    "projectSlug": "pangolin",
+    "name": "Elk Router",
+    "contracts": [
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x9E4AAbd2B3E60Ee1322E94307d0776F2c8e6CFbb"
+      }
+    ]
+  },
+  {
+    "projectSlug": "pangolin",
+    "name": "Elk Factory",
+    "contracts": [
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x091d35d7F63487909C863001ddCA481c6De47091"
+      }
+    ]
+  }
+]
