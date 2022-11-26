@@ -115,44 +115,20 @@ function MyApp({ Component, pageProps }: AppProps) {
                 </Link>
               </Typography>
             </Toolbar>
-            {chains.map((chain: Chain) => (
-              <Accordion disableGutters key={chain.slug}>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <Typography>
-                    {chain.name} (
-                    {
-                      projects.filter((project) =>
-                        project.chains.includes(chain.slug)
-                      ).length
-                    }
-                    )
-                  </Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <List>
-                    {projects
-                      .filter((project) => {
-                        return project.chains.includes(chain.slug);
-                      })
-                      .map((project) => {
-                        return (
-                          <Link
-                            key={project.slug}
-                            href={`/${project.slug}`}
-                            style={{ textDecoration: "none", color: "white" }}
-                            passHref
-                          >
-                            <ListItem disablePadding>
-                              <ListItemButton>
-                                <ListItemText primary={project.name} />
-                              </ListItemButton>
-                            </ListItem>
-                          </Link>
-                        );
-                      })}
-                  </List>
-                </AccordionDetails>
-              </Accordion>
+            {projects.map((project: Project) => (
+              <List key={project.slug} disablePadding>
+                <Link
+                  href={`/${project.slug}`}
+                  passHref
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <ListItem disablePadding>
+                    <ListItemButton>
+                      <ListItemText primary={project.name} />
+                    </ListItemButton>
+                  </ListItem>
+                </Link>
+              </List>
             ))}
           </Drawer>
           <Box component={"main"} sx={{ p: 5, flexGrow: 1, pt: 12 }}>

@@ -53,7 +53,7 @@ const ProjectPage: NextPage = () => {
                 {contracts.map((contractData: any) => {
                   return contractData.contracts
                     .sort((a: Contract, b: Contract) => {
-                      a.blockchainSlug > b.blockchainSlug;
+                      a.blockchainSlug.localeCompare(b.blockchainSlug);
                     })
                     .map((contract: any, index: number) => {
                       return (

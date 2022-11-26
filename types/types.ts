@@ -11,5 +11,4 @@ export type Chain = {
 export type Project = {
   slug: string
   name: string
-  chains: string[]
 }

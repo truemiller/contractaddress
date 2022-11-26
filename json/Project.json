@@ -1,80 +1,46 @@
 [
   {
     "slug": "pangolin",
-    "name": "Pangolin",
-    "chains": ["songbird", "avalanche"]
+    "name": "Pangolin"
   },
   {
     "slug": "elk-finance",
-    "name": "Elk Finance",
-    "chains": [
-      "avalanche",
-      "arbitrum",
-      "aurora",
-      "binance-smart-chain",
-      "cronos",
-      "ethereum",
-      "fantom",
-      "fuse",
-      "harmony",
-      "huobi",
-      "iotex",
-      "kcc",
-      "moonriver",
-      "okc",
-      "optimism",
-      "polygon",
-      "gnosis",
-      "hoo",
-      "telos",
-      "elastos"
-    ]
+    "name": "Elk Finance"
   },
   {
     "slug": "avalanche",
-    "name": "Avalanche",
-    "chains": ["avalanche"]
+    "name": "Avalanche"
   },
   {
     "slug": "trader-joe",
-    "name": "Trader Joe",
-    "chains": ["avalanche"]
+    "name": "Trader Joe"
   },
   {
     "slug": "gmx",
-    "name": "GMX",
-    "chains": ["avalanche", "arbitrum"]
+    "name": "GMX"
   },
   {
     "slug": "stargate",
-    "name": "Stargate",
-    "chains": [
-      "avalanche",
-      "arbitrum",
-      "binance-smart-chain",
-      "polygon",
-      "optimism",
-      "fantom"
-    ]
+    "name": "Stargate"
   },
   {
     "slug": "uniswap",
-    "name": "Uniswap",
-    "chains": ["ethereum", "polygon", "arbitrum", "optimism", "celo"]
+    "name": "Uniswap"
   },
   {
     "slug": "curve",
-    "name": "Curve",
-    "chains": ["ethereum", "polygon", "arbitrum", "fantom", "solana", "gnosis"]
+    "name": "Curve"
   },
   {
     "slug": "sushi",
-    "name": "Sushi",
-    "chains": ["avalanche", "arbitrum"]
+    "name": "Sushi"
   },
   {
     "slug": "avalanche-bridge",
-    "name": "Avalanche Bridge",
-    "chains": ["avalanche"]
+    "name": "Avalanche Bridge"
+  },
+  {
+    "slug": "makerdao",
+    "name": "MakerDAO"
   }
 ]
