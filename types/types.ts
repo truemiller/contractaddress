@@ -3,6 +3,12 @@ export type Contract = {
   address: string
 }
 
+export type ContractData = {
+  name: string
+  projectSlug: string
+  contracts: Contract[]
+}
+
 export type Chain = {
   slug: string
   name: string

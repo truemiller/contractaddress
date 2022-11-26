@@ -11,10 +11,10 @@ import {
 } from "@mui/material";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
-import { Suspense, useMemo } from "react";
+import { memo, Suspense, useMemo } from "react";
 import Projects from "../json/Project.json";
 import Blockchains from "../json/Blockchain.json";
-import { Contract } from "../types/types";
+import { Contract, ContractData } from "../types/types";
 
 const ProjectPage: NextPage = () => {
   const router = useRouter();
@@ -50,34 +50,13 @@ const ProjectPage: NextPage = () => {
                 </TableRow>
               </TableHead>
               <TableBody>
-                {contracts.map((contractData: any) => {
-                  return contractData.contracts
-                    .sort((a: Contract, b: Contract) => {
-                      a.blockchainSlug.localeCompare(b.blockchainSlug);
-                    })
-                    .map((contract: any, index: number) => {
-                      return (
-                        <TableRow key={contract.name}>
-                          {index == 0 ? (
-                            <TableCell rowSpan={contractData.contracts.length}>
-                              <Typography fontWeight={"bold"}>
-                                {contractData.name}
-                              </Typography>
-                            </TableCell>
-                          ) : null}
-
-                          <TableCell>
-                            {
-                              Blockchains.find(
-                                (blockchain) =>
-                                  blockchain.slug == contract.blockchainSlug
-                              )?.name
-                            }
-                          </TableCell>
-                          <TableCell>{contract.address}</TableCell>
-                        </TableRow>
-                      );
-                    });
+                {contracts.map((contractData: ContractData) => {
+                  return (
+                    <ContractTableRows
+                      key={contractData.name}
+                      contractData={contractData}
+                    ></ContractTableRows>
+                  );
                 })}
               </TableBody>
             </Table>
@@ -86,6 +65,45 @@ const ProjectPage: NextPage = () => {
       ) : (
         <Suspense>Loading ... </Suspense>
       )}
+    </>
+  );
+};
+
+const ContractTableRows = ({
+  contractData,
+}: {
+  contractData: ContractData;
+}): JSX.Element => {
+  const contracts = useMemo(() => {
+    return contractData.contracts.sort((a: Contract, b: Contract) => {
+      return a.blockchainSlug.localeCompare(b.blockchainSlug);
+    });
+  }, [contractData]);
+
+  console.log(contracts);
+
+  return (
+    <>
+      {contracts.map((contract: Contract, index: number) => {
+        return (
+          <TableRow key={`${contract.blockchainSlug}-${contract.address}`}>
+            {index == 0 ? (
+              <TableCell rowSpan={contractData.contracts.length}>
+                <Typography fontWeight={"bold"}>{contractData.name}</Typography>
+              </TableCell>
+            ) : null}
+
+            <TableCell>
+              {
+                Blockchains.find(
+                  (blockchain) => blockchain.slug == contract.blockchainSlug
+                )?.name
+              }
+            </TableCell>
+            <TableCell>{contract.address}</TableCell>
+          </TableRow>
+        );
+      })}
     </>
   );
 };
