@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Tokens from "../json/Token.json";
 import Blockchains from "../json/Blockchain.json";
 import Projects from "../json/Project.json";
 import { useEffect, useState } from "react";
