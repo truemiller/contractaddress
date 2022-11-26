@@ -1,9 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Blockchains from "../json/Blockchain.json";
-import Projects from "../json/Project.json";
-import { useEffect, useState } from "react";
-import { useEffectOnce } from "usehooks-ts";
 import { Typography, Stack } from "@mui/material";
 
 const Home: NextPage = () => {
