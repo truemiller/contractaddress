@@ -65,19 +65,7 @@
   {
     "slug": "curve",
     "name": "Curve",
-    "chains": [
-      "ethereum",
-      "polygon",
-      "arbitrum",
-      "optimism",
-      "fantom",
-      "avalanche",
-      "moonriver",
-      "gnosis",
-      "kava",
-      "aurora",
-      "harmony"
-    ]
+    "chains": ["ethereum", "polygon", "arbitrum", "fantom", "solana", "gnosis"]
   },
   {
     "slug": "sushi",

@@ -1,7 +1,5 @@
 export type Contract = {
-  projectSlug: string
   blockchainSlug: string
-  name: string
   address: string
 }
 

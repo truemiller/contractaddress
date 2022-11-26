@@ -1,9 +1,8 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useEffectOnce } from "usehooks-ts";
-import { Contract, Chain, Project } from "../types/types";
-import Tokens from "../json/Token.json";
+import { Project, Chain } from "../types/types";
 import Blockchains from "../json/Blockchain.json";
 import Projects from "../json/Project.json";
 import Link from "next/link";
@@ -28,7 +27,6 @@ import {
 } from "@mui/material";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Head from "next/head";
 
 const drawerWidth = 300;
 
@@ -81,11 +79,15 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [chains, setChains] = useState<Chain[]>([]);
   const [projects, setProjects] = useState<Project[]>([]);
 
-  const [selectedChain, setSelectChain] = useState<Chain>();
-
   useEffectOnce(() => {
-    setChains(Blockchains.sort((a, b): any => a.name > b.name));
-    setProjects(Projects.sort((a, b): any => a.name > b.name));
+    const blockchains: Chain[] = Blockchains.sort((a: Chain, b: Chain) =>
+      a.name.localeCompare(b.name)
+    );
+    const projects: Project[] = Projects.sort((a: Project, b: Project) =>
+      a.name.localeCompare(b.name)
+    );
+    setChains(blockchains);
+    setProjects(projects);
   });
 
   return (

@@ -11,9 +11,10 @@ import {
 } from "@mui/material";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
-import { Suspense, useEffect, useMemo, useState } from "react";
+import { Suspense, useMemo } from "react";
 import Projects from "../json/Project.json";
 import Blockchains from "../json/Blockchain.json";
+import { Contract } from "../types/types";
 
 const ProjectPage: NextPage = () => {
   const router = useRouter();
@@ -50,8 +51,11 @@ const ProjectPage: NextPage = () => {
               </TableHead>
               <TableBody>
                 {contracts.map((contractData: any) => {
-                  return contractData.contracts.map(
-                    (contract: any, index: number) => {
+                  return contractData.contracts
+                    .sort((a: Contract, b: Contract) => {
+                      a.blockchainSlug > b.blockchainSlug;
+                    })
+                    .map((contract: any, index: number) => {
                       return (
                         <TableRow key={contract.name}>
                           {index == 0 ? (
@@ -73,8 +77,7 @@ const ProjectPage: NextPage = () => {
                           <TableCell>{contract.address}</TableCell>
                         </TableRow>
                       );
-                    }
-                  );
+                    });
                 })}
               </TableBody>
             </Table>

@@ -11,7 +11,7 @@
   },
   {
     "projectSlug": "pangolin",
-    "name": "Router",
+    "name": "Pangolin Router",
     "contracts": [
       {
         "blockchainSlug": "avalanche",
@@ -21,7 +21,7 @@
   },
   {
     "projectSlug": "pangolin",
-    "name": "Factory",
+    "name": "Pangolin Factory",
     "contracts": [
       {
         "blockchainSlug": "avalanche",
