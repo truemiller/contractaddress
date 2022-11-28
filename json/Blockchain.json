@@ -110,5 +110,17 @@
   {
     "slug": "telos",
     "name": "Telos"
+  },
+  {
+    "slug": "energi",
+    "name": "Energi"
+  },
+  {
+    "slug": "sora",
+    "name": "Sora"
+  },
+  {
+    "slug": "tron",
+    "name": "Tron"
   }
 ]

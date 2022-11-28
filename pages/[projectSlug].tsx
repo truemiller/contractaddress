@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
-import { memo, Suspense, useMemo } from "react";
+import { Suspense, useMemo } from "react";
 import Projects from "../json/Project.json";
 import Blockchains from "../json/Blockchain.json";
 import { Contract, ContractData } from "../types/types";

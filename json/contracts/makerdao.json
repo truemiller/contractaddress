@@ -1,0 +1,20 @@
+[
+  {
+    "projectSlug": "makerdao",
+    "name": "MKR Token",
+    "contracts": [
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879"
+      },
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+      }
+    ]
+  }
+]
