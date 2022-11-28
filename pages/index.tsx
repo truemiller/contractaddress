@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Typography, Stack } from "@mui/material";
-
+import Projects from "../json/Project.json";
+import Blockchains from "../json/Blockchain.json";
 const Home: NextPage = () => {
   return (
     <>
@@ -18,8 +19,8 @@ const Home: NextPage = () => {
           Contract Address
         </Typography>
         <Typography>
-          Find contract addresses for popular crypto currency tokens and smart
-          contracts.
+          Find contract addresses for {Projects.length} cryptocurrency projects
+          across {Blockchains.length} blockchains.
         </Typography>
       </Stack>
     </>
