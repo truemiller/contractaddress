@@ -1,0 +1,16 @@
+[
+  {
+    "projectSlug": "floki-inu",
+    "name": "FLOKI Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xfb5b838b6cfeedc2873ab27866079ac55363d37e"
+      }
+    ]
+  }
+]
