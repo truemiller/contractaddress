@@ -42,5 +42,9 @@
   {
     "slug": "makerdao",
     "name": "MakerDAO"
+  },
+  {
+    "slug": "binance",
+    "name": "Binance"
   }
 ]
