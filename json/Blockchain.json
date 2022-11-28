@@ -170,5 +170,9 @@
   {
     "slug": "syscoin",
     "name": "Syscoin"
+  },
+  {
+    "slug": "zilliqa",
+    "name": "Zilliqa"
   }
 ]
