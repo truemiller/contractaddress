@@ -142,5 +142,33 @@
   {
     "slug": "velas",
     "name": "Velas"
+  },
+  {
+    "slug": "bitgert",
+    "name": "BitGert"
+  },
+  {
+    "slug": "canto",
+    "name": "Canto"
+  },
+  {
+    "slug": "epow",
+    "name": "EthereumPOW"
+  },
+  {
+    "slug": "astar",
+    "name": "Astar"
+  },
+  {
+    "slug": "moonbeam",
+    "name": "Moonbeam"
+  },
+  {
+    "slug": "near",
+    "name": "Near"
+  },
+  {
+    "slug": "syscoin",
+    "name": "Syscoin"
   }
 ]
