@@ -16,5 +16,59 @@
         "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
       }
     ]
+  },
+  {
+    "projectSlug": "makerdao",
+    "name": "DAI Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0xef977d2f931c1978db5f6747666fa1eacb0d0339"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+      },
+      {
+        "blockchainSlug": "sora",
+        "address": "0x0200060000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844"
+      },
+      {
+        "blockchainSlug": "aurora",
+        "address": "0xe3520349f477a5f6eb06107066048508498a291b"
+      },
+      {
+        "blockchainSlug": "cronos",
+        "address": "0xf2001b145b43032aaf5ee2884e456ccd805f677d"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e"
+      }
+    ]
   }
 ]
