@@ -174,5 +174,9 @@
   {
     "slug": "zilliqa",
     "name": "Zilliqa"
+  },
+  {
+    "slug": "ronin",
+    "name": "Ronin"
   }
 ]
