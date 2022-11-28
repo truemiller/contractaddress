@@ -15,6 +15,7 @@ import { Suspense, useMemo } from "react";
 import Projects from "../json/Project.json";
 import Blockchains from "../json/Blockchain.json";
 import { Contract, ContractData } from "../types/types";
+import Head from "next/head";
 
 const ProjectPage: NextPage = () => {
   const router = useRouter();
@@ -34,6 +35,13 @@ const ProjectPage: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <title>{project?.name} Contract Addresses</title>
+        <meta
+          name="description"
+          content={`Find contract addresses for ${project?.name}`}
+        />
+      </Head>
       {project && contracts ? (
         <Box>
           <Typography variant="h1" fontWeight={"bold"}>
