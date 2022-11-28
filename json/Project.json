@@ -50,5 +50,9 @@
   {
     "slug": "tether",
     "name": "Tether"
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon"
   }
 ]
