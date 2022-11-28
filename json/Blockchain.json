@@ -72,7 +72,7 @@
     "name": "Aurora"
   },
   {
-    "slug": "metis-andromeda",
+    "slug": "metis",
     "name": "Metis Andromeda"
   },
   {
@@ -122,5 +122,25 @@
   {
     "slug": "tron",
     "name": "Tron"
+  },
+  {
+    "slug": "theta",
+    "name": "Theta"
+  },
+  {
+    "slug": "milkomeda",
+    "name": "Milkomeda (Cardano)"
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden Network"
+  },
+  {
+    "slug": "conflux",
+    "name": "Conflux"
+  },
+  {
+    "slug": "velas",
+    "name": "Velas"
   }
 ]
