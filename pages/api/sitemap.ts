@@ -24,7 +24,11 @@ const sitemapApi = async (req: NextApiRequest, res: NextApiResponse) => {
     </urlset>`
 
   const xmlTop = `<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>http://www.example.com/foo.html</loc>
+    </url>
+    `
 
   let xmlUrls = ''
 
