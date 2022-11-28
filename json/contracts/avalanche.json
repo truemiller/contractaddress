@@ -6,6 +6,22 @@
       {
         "blockchainSlug": "avalanche",
         "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x511d35c52a3c244e7b8bd92c0c297755fbd89212"
+      },
+      {
+        "blockchainSlug": "telos",
+        "address": "0x7c598c96d02398d89fbcb9d41eab3df0c16f227d"
+      },
+      {
+        "blockchainSlug": "energi",
+        "address": "0xd7b8710f5713d2739da301a5ecdb8b6ffb5ec60d"
+      },
+      {
+        "blockchainSlug": "velas",
+        "address": "0x332730a4f6e03d9c55829435f10360e13cfa41ff"
       }
     ]
   }
