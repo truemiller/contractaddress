@@ -8,6 +8,7 @@ import {
   TableCell,
   Paper,
   Typography,
+  Stack,
 } from "@mui/material";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
@@ -16,6 +17,7 @@ import Projects from "../json/Project.json";
 import Blockchains from "../json/Blockchain.json";
 import { Contract, ContractData } from "../types/types";
 import Head from "next/head";
+import Image from "next/image";
 
 const ProjectPage: NextPage = () => {
   const router = useRouter();
@@ -102,11 +104,20 @@ const ContractTableRows = ({
             ) : null}
 
             <TableCell>
-              {
-                Blockchains.find(
-                  (blockchain) => blockchain.slug == contract.blockchainSlug
-                )?.name
-              }
+              <Stack direction={"row"}>
+                <Image
+                  src={`/logos/${contract.blockchainSlug}.webp`}
+                  width={16}
+                  height={16}
+                  alt=""
+                  style={{ marginRight: 5, borderRadius: "100%" }}
+                />
+                {
+                  Blockchains.find(
+                    (blockchain) => blockchain.slug == contract.blockchainSlug
+                  )?.name
+                }
+              </Stack>
             </TableCell>
             <TableCell>{contract.address}</TableCell>
           </TableRow>
