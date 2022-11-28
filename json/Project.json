@@ -59,5 +59,6 @@
     "slug": "shiba-inu",
     "name": "Shiba Inu"
   },
-  { "slug": "floki-inu", "name": "Floki Inu" }
+  { "slug": "floki-inu", "name": "Floki Inu" },
+  { "slug": "ethereum", "name": "Ethereum" }
 ]
