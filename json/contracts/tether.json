@@ -1,0 +1,152 @@
+[
+  {
+    "projectSlug": "tether",
+    "name": "USDT Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      {
+        "blockchainSlug": "huobi",
+        "address": "0xa71edc38d189767582c38a3145b5873052c3e47a"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x55d398326f99059ff775485246999027b3197955"
+      },
+      {
+        "blockchainSlug": "solana",
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+      },
+      {
+        "blockchainSlug": "iotex",
+        "address": "0x3cdb7c48e70b854ed2fa392e21687501d84b3afc"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      {
+        "blockchainSlug": "kcc",
+        "address": "0x0039f574ee5cc39bdd162e9a88e3eb1f111baf48"
+      },
+      {
+        "blockchainSlug": "okc",
+        "address": "0x382bb369d343125bfb2117af9c149795c6c65c50"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0xb44a9b6905af7c801311e8f4e76932ee959c663c"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
+      },
+      {
+        "blockchainSlug": "aurora",
+        "address": "0x4988a896b1227218e4a686fde5eabdcabd91571f"
+      },
+      {
+        "blockchainSlug": "boba",
+        "address": "0x5de1677344d3cb0d7d465c10b72a8f60699c062d"
+      },
+      {
+        "blockchainSlug": "metis",
+        "address": "0xbb06dca3ae6887fabf931640f67cab3e3a16f4dc"
+      },
+      {
+        "blockchainSlug": "cronos",
+        "address": "0x66e428c3f67a68878562e79a0234c1f83c208770"
+      },
+      {
+        "blockchainSlug": "fuse",
+        "address": "0xfadbbf8ce7d5b7041be672561bba99f79c532e10"
+      },
+      {
+        "blockchainSlug": "meter",
+        "address": "0x5fa41671c48e3c951afc30816947126ccc8c162e"
+      },
+      {
+        "blockchainSlug": "kardiachain",
+        "address": "0x551a5dcac57c66aa010940c2dcff5da9c53aa53b"
+      },
+      {
+        "blockchainSlug": "tomochain",
+        "address": "0x381b31409e4d220919b2cff012ed94d70135a59e"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0x3c2b8be99c50593081eaa2a724f0b8285f5aba8f"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a"
+      },
+      {
+        "blockchainSlug": "moonbeam",
+        "address": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73"
+      },
+      {
+        "blockchainSlug": "telos",
+        "address": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73"
+      },
+      {
+        "blockchainSlug": "syscoin",
+        "address": "0x922d641a426dcffaef11680e5358f34d97d112e1"
+      },
+      {
+        "blockchainSlug": "tron",
+        "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"
+      },
+      {
+        "blockchainSlug": "milkomeda",
+        "address": "0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844"
+      },
+      {
+        "blockchainSlug": "conflux",
+        "address": "0xfe97e85d13abd9c1c33384e796f10b73905637ce"
+      },
+      {
+        "blockchainSlug": "astar",
+        "address": "0x3795c36e7d12a8c252a20c5a7b455f7c57b60283"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0xb44a9b6905af7c801311e8f4e76932ee959c663c"
+      },
+      {
+        "blockchainSlug": "bitgert",
+        "address": "0xde14b85cf78f2add2e867fee40575437d5f10c06"
+      },
+      {
+        "blockchainSlug": "canto",
+        "address": "0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75"
+      },
+      {
+        "blockchainSlug": "gnosis",
+        "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6"
+      },
+      {
+        "blockchainSlug": "epow",
+        "address": "0x2ad7868ca212135c6119fd7ad1ce51cfc5702892"
+      },
+      {
+        "blockchainSlug": "velas",
+        "address": "0xb44a9b6905af7c801311e8f4e76932ee959c663c"
+      },
+      {
+        "blockchainSlug": "near",
+        "address": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near"
+      }
+    ]
+  }
+]
