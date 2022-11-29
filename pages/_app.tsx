@@ -103,7 +103,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               </Typography>
             </Toolbar>
             {projects.map((project: Project) => (
-              <List key={project.slug} disablePadding>
+              <List key={project.slug} dense disablePadding>
                 <Link
                   href={`/${project.slug}`}
                   passHref
