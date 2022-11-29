@@ -169,7 +169,7 @@ const ContractTableRows = ({
                     {contract.address}
                   </Link>
                 ) : (
-                  <Typography>{contract.address}</Typography>
+                  contract.address
                 )}
                 <ContentCopyIcon
                   fontSize="small"
