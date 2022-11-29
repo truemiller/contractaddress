@@ -46,6 +46,12 @@ const ProjectPage: NextPage = () => {
       return [];
     }
   }, [projectSlug]);
+  const numberOfContracts = useMemo(() => {
+    return contracts?.reduce(
+      (a: number, b: ContractData) => a + b.contracts.length,
+      0
+    );
+  }, [contracts]);
 
   return (
     <>
@@ -62,10 +68,12 @@ const ProjectPage: NextPage = () => {
             <Typography variant="h1" fontWeight={900}>
               {project?.name}
             </Typography>
+            <Typography>
+              Find {numberOfContracts} contract addresses for {project?.name}.
+            </Typography>
             <Typography variant="h2" fontWeight={700}>
               Contract Addresses
             </Typography>
-
             {contracts.map((contractData: ContractData) => {
               return (
                 <>
