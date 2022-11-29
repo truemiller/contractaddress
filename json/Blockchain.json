@@ -223,5 +223,10 @@
     "slug": "ronin",
     "name": "Ronin",
     "blockExplorer": "https://explorer.roninchain.com/address/"
+  },
+  {
+    "slug": "osmosis",
+    "name": "Osmosis",
+    "blockExplorer": ""
   }
 ]
