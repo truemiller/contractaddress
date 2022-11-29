@@ -228,5 +228,25 @@
     "slug": "osmosis",
     "name": "Osmosis",
     "blockExplorer": ""
+  },
+  {
+    "slug": "cube",
+    "name": "Cube",
+    "blockExplorer": "https://www.cubescan.network/en-us/address/"
+  },
+  {
+    "slug": "stepn",
+    "name": "Step Network",
+    "blockExplorer": "https://stepscan.io/address/"
+  },
+  {
+    "slug": "hydra",
+    "name": "Hydra",
+    "blockExplorer": "https://explorer.hydrachain.org/address/"
+  },
+  {
+    "slug": "klaytn",
+    "name": "Klaytn",
+    "blockExplorer": "https://scope.klaytn.com/account/"
   }
 ]
