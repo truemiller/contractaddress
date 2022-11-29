@@ -60,5 +60,6 @@
     "name": "Shiba Inu"
   },
   { "slug": "floki-inu", "name": "Floki Inu" },
-  { "slug": "ethereum", "name": "Ethereum" }
+  { "slug": "ethereum", "name": "Ethereum" },
+  { "slug": "ren", "name": "Ren" }
 ]
