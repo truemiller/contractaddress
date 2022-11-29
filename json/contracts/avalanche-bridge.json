@@ -4,8 +4,12 @@
     "name": "Avalanche Bridge",
     "contracts": [
       {
-        "blockchainSlug": "avalanche",
+        "blockchainSlug": "ethereum",
         "address": "0x8eb8a3b98659cce290402893d0123abb75e3ab28"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0xEb1bB70123B2f43419d070d7fDE5618971cc2F8f"
       }
     ]
   },
