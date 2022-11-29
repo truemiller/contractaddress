@@ -36,7 +36,8 @@ const darkTheme = createTheme({
     MuiTypography: {
       styleOverrides: {
         root: {
-          // color: "#111",
+          fontFamily:
+            "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;",
         },
         h1: {
           fontSize: "4em",
@@ -132,7 +133,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               <List key={project.slug} dense disablePadding>
                 <Link
                   href={`/${project.slug}`}
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: "none", color: "black" }}
                 >
                   <ListItem disablePadding>
                     <ListItemButton>

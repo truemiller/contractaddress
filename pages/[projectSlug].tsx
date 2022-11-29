@@ -100,10 +100,14 @@ const ProjectPage: NextPage = () => {
             <Toolbar>
               <Typography>On this page</Typography>
             </Toolbar>
-            <List dense>
+            <List dense disablePadding>
               {contracts.map((contractData: ContractData) => {
                 return (
-                  <Link key={contractData.name} href={`#${contractData.name}`}>
+                  <Link
+                    key={contractData.name}
+                    href={`#${contractData.name}`}
+                    style={{ textDecoration: "none" }}
+                  >
                     <ListItem>
                       <ListItemButton>
                         <ListItemText>{contractData?.name}</ListItemText>
