@@ -9,6 +9,7 @@ import {
   Paper,
   Typography,
   Stack,
+  Drawer,
 } from "@mui/material";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
@@ -45,33 +46,44 @@ const ProjectPage: NextPage = () => {
         />
       </Head>
       {project && contracts ? (
-        <Box>
-          <Typography variant="h1" fontWeight={"bold"}>
-            {project?.name}
-          </Typography>
-          <Typography variant="h2">Contract Addresses</Typography>
-          <TableContainer component={Paper}>
-            <Table size="small">
-              <TableHead>
-                <TableRow sx={{ background: "#eee" }}>
-                  <TableCell sx={{ fontWeight: "bolder" }}>Contract</TableCell>
-                  <TableCell sx={{ fontWeight: "bolder" }}>Chain</TableCell>
-                  <TableCell sx={{ fontWeight: "bolder" }}>Address</TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {contracts.map((contractData: ContractData) => {
-                  return (
-                    <ContractTableRows
-                      key={contractData.name}
-                      contractData={contractData}
-                    ></ContractTableRows>
-                  );
-                })}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        </Box>
+        <>
+          <Box>
+            <Typography variant="h1" fontWeight={900}>
+              {project?.name}
+            </Typography>
+            <Typography variant="h2" fontWeight={700}>
+              Contract Addresses
+            </Typography>
+
+            {contracts.map((contractData: ContractData) => {
+              return (
+                <>
+                  <Typography variant="h3">{contractData.name}</Typography>
+                  <TableContainer component={Paper}>
+                    <Table size="small">
+                      <TableHead>
+                        <TableRow sx={{ background: "#eee" }}>
+                          <TableCell sx={{ fontWeight: "bolder" }}>
+                            Chain
+                          </TableCell>
+                          <TableCell sx={{ fontWeight: "bolder" }}>
+                            Address
+                          </TableCell>
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        <ContractTableRows
+                          key={contractData.name}
+                          contractData={contractData}
+                        ></ContractTableRows>
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </>
+              );
+            })}
+          </Box>
+        </>
       ) : (
         <Suspense>Loading ... </Suspense>
       )}
@@ -97,11 +109,11 @@ const ContractTableRows = ({
       {contracts.map((contract: Contract, index: number) => {
         return (
           <TableRow key={`${contract.blockchainSlug}-${contract.address}`}>
-            {index == 0 ? (
+            {/* {index == 0 ? (
               <TableCell rowSpan={contractData.contracts.length}>
                 <Typography fontWeight={"bold"}>{contractData.name}</Typography>
               </TableCell>
-            ) : null}
+            ) : null} */}
 
             <TableCell>
               <Stack direction={"row"}>

@@ -37,6 +37,18 @@ const darkTheme = createTheme({
         root: {
           fontFamily: "monospace",
         },
+        h1: {
+          marginBottom: 15,
+          marginTop: 15,
+        },
+        h2: {
+          marginBottom: 10,
+          marginTop: 10,
+        },
+        h3: {
+          marginBottom: 5,
+          marginTop: 5,
+        },
       },
     },
     MuiTableCell: {
@@ -118,7 +130,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               </List>
             ))}
           </Drawer>
-          <Box component={"main"} sx={{ p: 5, flexGrow: 1 }}>
+          <Box component={"main"} sx={{ flexGrow: 1 }}>
             <Container>
               <Component {...pageProps} />
             </Container>
