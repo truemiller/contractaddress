@@ -112,7 +112,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           sx={{
             display: "block",
             width: drawerWidth,
-            background: "#eee",
           }}
         >
           <Toolbar sx={{ width: drawerWidth }}>
