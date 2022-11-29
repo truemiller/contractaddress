@@ -36,16 +36,17 @@ const darkTheme = createTheme({
     MuiTypography: {
       styleOverrides: {
         root: {
-          fontFamily:
-            "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;",
+          fontFamily: "monospace",
         },
         h1: {
           fontSize: "4em",
+          fontWeight: "bolder",
           marginBottom: 25,
           marginTop: 25,
         },
         h2: {
           fontSize: "3em",
+          fontWeight: "bold",
           marginBottom: 20,
           marginTop: 20,
         },

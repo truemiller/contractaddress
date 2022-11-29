@@ -65,15 +65,11 @@ const ProjectPage: NextPage = () => {
       {project && contracts ? (
         <>
           <Box>
-            <Typography variant="h1" fontWeight={900}>
-              {project?.name}
-            </Typography>
+            <Typography variant="h1">{project?.name}</Typography>
             <Typography>
               Find {numberOfContracts} contract addresses for {project?.name}.
             </Typography>
-            <Typography variant="h2" fontWeight={700}>
-              Contract Addresses
-            </Typography>
+            <Typography variant="h2">Contract Addresses</Typography>
             {contracts.map((contractData: ContractData) => {
               return (
                 <>

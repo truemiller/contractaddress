@@ -1,10 +1,10 @@
 import { NextApiResponse } from 'next'
-// /src/pages/api/sitemap.js
-
-import { createGzip } from 'zlib'
-import { SitemapStream } from 'sitemap'
-import Projects from '../../json/Project.json'
 import { NextApiRequest } from 'next'
+import { SitemapStream } from 'sitemap'
+// /src/pages/api/sitemap.js
+import { createGzip } from 'zlib'
+
+import Projects from '../../json/Project.json'
 
 const STATIC_URLS = Projects.map((project) => project.slug)
 

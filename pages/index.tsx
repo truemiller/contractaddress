@@ -1,8 +1,9 @@
+import { Stack, Typography } from "@mui/material";
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Typography, Stack } from "@mui/material";
-import Projects from "../json/Project.json";
+
 import Blockchains from "../json/Blockchain.json";
+import Projects from "../json/Project.json";
 const Home: NextPage = () => {
   return (
     <>
