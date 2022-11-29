@@ -63,5 +63,8 @@
   { "slug": "weth", "name": "WETH" },
   { "slug": "ren", "name": "Ren" },
   { "slug": "chainlink", "name": "ChainLink" },
-  { "slug": "wbtc", "name": "WBTC" }
+  { "slug": "wbtc", "name": "WBTC" },
+  { "slug": "ton", "name": "The Open Network" },
+  { "slug": "quant", "name": "Quant" },
+  { "slug": "cronos", "name": "Cronos" }
 ]
