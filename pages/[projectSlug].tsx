@@ -1,27 +1,35 @@
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import {
+  Alert,
   Box,
-  Table,
-  TableHead,
-  TableBody,
-  TableContainer,
-  TableRow,
-  TableCell,
-  Paper,
-  Typography,
-  Stack,
+  Button,
   Drawer,
   Link,
-  Button,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
+  Paper,
+  Snackbar,
+  Stack,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Toolbar,
+  Typography,
 } from "@mui/material";
 import { NextPage } from "next";
-import { useRouter } from "next/router";
-import { Suspense, useMemo } from "react";
-import Projects from "../json/Project.json";
-import Blockchains from "../json/Blockchain.json";
-import { Contract, ContractData } from "../types/types";
 import Head from "next/head";
 import Image from "next/image";
-import ContentCopyIcon from "@mui/icons-material/ContentCopy";
+import { useRouter } from "next/router";
+import { Suspense, useMemo, useState } from "react";
+
+import Blockchains from "../json/Blockchain.json";
+import Projects from "../json/Project.json";
+import { Contract, ContractData } from "../types/types";
 
 const ProjectPage: NextPage = () => {
   const router = useRouter();
@@ -61,7 +69,9 @@ const ProjectPage: NextPage = () => {
             {contracts.map((contractData: ContractData) => {
               return (
                 <>
-                  <Typography variant="h3">{contractData.name}</Typography>
+                  <Typography variant="h3" id={contractData.name}>
+                    {contractData.name}
+                  </Typography>
                   <TableContainer component={Paper}>
                     <Table size="small">
                       <TableHead>
@@ -86,6 +96,24 @@ const ProjectPage: NextPage = () => {
               );
             })}
           </Box>
+          <Drawer variant="permanent" anchor="right">
+            <Toolbar>
+              <Typography>On this page</Typography>
+            </Toolbar>
+            <List dense>
+              {contracts.map((contractData: ContractData) => {
+                return (
+                  <Link key={contractData.name} href={`#${contractData.name}`}>
+                    <ListItem>
+                      <ListItemButton>
+                        <ListItemText>{contractData?.name}</ListItemText>
+                      </ListItemButton>
+                    </ListItem>
+                  </Link>
+                );
+              })}
+            </List>
+          </Drawer>
         </>
       ) : (
         <Suspense>Loading ... </Suspense>
@@ -105,7 +133,12 @@ const ContractTableRows = ({
     });
   }, [contractData]);
 
-  console.log(contracts);
+  const handleCopy = (value: string) => {
+    window.navigator.clipboard.writeText(value);
+    setSnackbarOpen(true);
+  };
+
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
 
   return (
     <>
@@ -134,9 +167,7 @@ const ContractTableRows = ({
                 </Link>
                 <ContentCopyIcon
                   fontSize="small"
-                  onClick={() =>
-                    window.navigator.clipboard.writeText(contract.address)
-                  }
+                  onClick={() => handleCopy(contract.address)}
                   sx={{ padding: 0.25, marginX: 1, cursor: "pointer" }}
                 />
               </Stack>
@@ -144,6 +175,14 @@ const ContractTableRows = ({
           </TableRow>
         );
       })}
+      <Snackbar
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        autoHideDuration={6000}
+        open={snackbarOpen}
+        onClose={() => setSnackbarOpen(false)}
+      >
+        <Alert severity="success">Copied to clipboard</Alert>
+      </Snackbar>
     </>
   );
 };

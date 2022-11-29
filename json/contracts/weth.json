@@ -1,6 +1,6 @@
 [
   {
-    "projectSlug": "ethereum",
+    "projectSlug": "weth",
     "name": "WETH Token",
     "contracts": [
       {

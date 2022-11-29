@@ -1,64 +1,63 @@
 import "../styles/globals.css";
-import type { AppProps } from "next/app";
-import { useState } from "react";
-import { useEffectOnce } from "usehooks-ts";
-import { Project, Chain } from "../types/types";
-import Blockchains from "../json/Blockchain.json";
-import Projects from "../json/Project.json";
-import Link from "next/link";
+
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
-  Box,
-  CssBaseline,
-  Stack,
   AppBar,
+  Box,
   Container,
+  createTheme,
+  CssBaseline,
   Drawer,
-  Typography,
-  Toolbar,
   List,
   ListItem,
   ListItemButton,
   ListItemText,
-  createTheme,
+  Stack,
   ThemeProvider,
+  Toolbar,
+  Typography,
 } from "@mui/material";
+import type { AppProps } from "next/app";
+import Link from "next/link";
+import { useState } from "react";
+import { useEffectOnce } from "usehooks-ts";
 
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Blockchains from "../json/Blockchain.json";
+import Projects from "../json/Project.json";
+import { Chain, Project } from "../types/types";
 
 const drawerWidth = 300;
 
 const darkTheme = createTheme({
   palette: {
-    mode: "light",
+    mode: "dark",
   },
   components: {
     MuiTypography: {
       styleOverrides: {
         root: {
-          fontFamily: "monospace",
-          color: "#111",
+          // color: "#111",
         },
         h1: {
           fontSize: "4em",
-          marginBottom: 15,
-          marginTop: 15,
+          marginBottom: 25,
+          marginTop: 25,
         },
         h2: {
           fontSize: "3em",
-          marginBottom: 10,
-          marginTop: 10,
+          marginBottom: 20,
+          marginTop: 20,
         },
         h3: {
           fontSize: "2em",
-          marginBottom: 5,
-          marginTop: 5,
+          marginTop: 15,
+          marginBottom: 15,
         },
       },
     },
     MuiTableCell: {
       styleOverrides: {
         root: {
-          fontFamily: "monospace",
           border: "1px solid #ccc",
         },
       },
@@ -67,6 +66,20 @@ const darkTheme = createTheme({
       styleOverrides: {
         root: {
           fontWeight: "bold",
+        },
+      },
+    },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          // background: "#fff",
+        },
+      },
+    },
+    MuiListItemText: {
+      styleOverrides: {
+        root: {
+          textDecoration: "none",
         },
       },
     },
@@ -95,9 +108,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Stack direction={"row"}>
           <Drawer
             variant="permanent"
-            sx={{ display: "block", width: drawerWidth }}
+            sx={{
+              display: "block",
+              width: drawerWidth,
+              background: "#eee",
+            }}
           >
-            <Toolbar sx={{ width: drawerWidth, background: "#eee" }}>
+            <Toolbar sx={{ width: drawerWidth }}>
               <Typography marginX={"auto"}>
                 <Link
                   href="/"
@@ -115,7 +132,6 @@ function MyApp({ Component, pageProps }: AppProps) {
               <List key={project.slug} dense disablePadding>
                 <Link
                   href={`/${project.slug}`}
-                  passHref
                   style={{ textDecoration: "none" }}
                 >
                   <ListItem disablePadding>

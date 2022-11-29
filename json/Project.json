@@ -8,8 +8,8 @@
     "name": "Elk Finance"
   },
   {
-    "slug": "avalanche",
-    "name": "Avalanche"
+    "slug": "wavax",
+    "name": "WAVAX"
   },
   {
     "slug": "trader-joe",
@@ -44,8 +44,8 @@
     "name": "MakerDAO"
   },
   {
-    "slug": "binance",
-    "name": "Binance"
+    "slug": "wbnb",
+    "name": "WBNB"
   },
   {
     "slug": "tether",
@@ -60,6 +60,6 @@
     "name": "Shiba Inu"
   },
   { "slug": "floki-inu", "name": "Floki Inu" },
-  { "slug": "ethereum", "name": "Ethereum" },
+  { "slug": "weth", "name": "WETH" },
   { "slug": "ren", "name": "Ren" }
 ]
