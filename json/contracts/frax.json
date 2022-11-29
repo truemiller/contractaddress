@@ -1,0 +1,94 @@
+[
+  {
+    "projectSlug": "frax",
+    "name": "FRAX Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x853d955acef822db058eb8505911ed77f175b99e"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0xfa7191d292d5633f702b0bd7e3e3bccc0e633200"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0x1a93b23281cc1cde4c4741353f3064709a16197d"
+      },
+      {
+        "blockchainSlug": "solana",
+        "address": "FR87nWEUxVgerFGhZM8Y4AggKGLnaXswr1Pd8wZ4kZcp"
+      }
+    ]
+  },
+  {
+    "projectSlug": "frax",
+    "name": "FXS Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xe48a3d7d0bc88d552f730b62c006bc925eadb9ee"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x214db107654ff987ad859f34125307783fc8e387"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x1a3acf6d19267e2d3e7f898f42803e90c9219062"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x7d016eec9c25232b01f23ef992d98ca97fc2af5a"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0x0767d8e1b05efa8d6a301a65b324b6b66a1cc14c"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0x6f1d1ee50846fcbc3de91723e61cb68cfa6d0e98"
+      },
+      {
+        "blockchainSlug": "solana",
+        "address": "6LX8BhMQ4Sy2otmAWj7Y5sKd9YTVVUgfMsBzT6B9W7ct"
+      }
+    ]
+  }
+]
