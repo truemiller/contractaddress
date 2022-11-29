@@ -36,16 +36,20 @@ const darkTheme = createTheme({
       styleOverrides: {
         root: {
           fontFamily: "monospace",
+          color: "#111",
         },
         h1: {
+          fontSize: "4em",
           marginBottom: 15,
           marginTop: 15,
         },
         h2: {
+          fontSize: "3em",
           marginBottom: 10,
           marginTop: 10,
         },
         h3: {
+          fontSize: "2em",
           marginBottom: 5,
           marginTop: 5,
         },
@@ -63,13 +67,6 @@ const darkTheme = createTheme({
       styleOverrides: {
         root: {
           fontWeight: "bold",
-        },
-      },
-    },
-    MuiListItemText: {
-      styleOverrides: {
-        root: {
-          color: "black",
         },
       },
     },

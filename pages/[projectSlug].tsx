@@ -10,6 +10,8 @@ import {
   Typography,
   Stack,
   Drawer,
+  Link,
+  Button,
 } from "@mui/material";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
@@ -19,6 +21,7 @@ import Blockchains from "../json/Blockchain.json";
 import { Contract, ContractData } from "../types/types";
 import Head from "next/head";
 import Image from "next/image";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 
 const ProjectPage: NextPage = () => {
   const router = useRouter();
@@ -107,14 +110,11 @@ const ContractTableRows = ({
   return (
     <>
       {contracts.map((contract: Contract, index: number) => {
+        const blockchain = Blockchains.find(
+          (blockchain) => blockchain.slug == contract.blockchainSlug
+        );
         return (
           <TableRow key={`${contract.blockchainSlug}-${contract.address}`}>
-            {/* {index == 0 ? (
-              <TableCell rowSpan={contractData.contracts.length}>
-                <Typography fontWeight={"bold"}>{contractData.name}</Typography>
-              </TableCell>
-            ) : null} */}
-
             <TableCell>
               <Stack direction={"row"}>
                 <Image
@@ -124,14 +124,23 @@ const ContractTableRows = ({
                   alt=""
                   style={{ marginRight: 5, borderRadius: "100%" }}
                 />
-                {
-                  Blockchains.find(
-                    (blockchain) => blockchain.slug == contract.blockchainSlug
-                  )?.name
-                }
+                {blockchain?.name}
               </Stack>
             </TableCell>
-            <TableCell>{contract.address}</TableCell>
+            <TableCell>
+              <Stack direction={"row"}>
+                <Link href={`${blockchain?.blockExplorer}${contract.address}`}>
+                  {contract.address}
+                </Link>
+                <ContentCopyIcon
+                  fontSize="small"
+                  onClick={() =>
+                    window.navigator.clipboard.writeText(contract.address)
+                  }
+                  sx={{ padding: 0.25, marginX: 1, cursor: "pointer" }}
+                />
+              </Stack>
+            </TableCell>
           </TableRow>
         );
       })}

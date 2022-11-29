@@ -1,182 +1,227 @@
 [
   {
     "slug": "ethereum",
-    "name": "Ethereum"
+    "name": "Ethereum",
+    "blockExplorer": "https://etherscan.io/address/"
   },
   {
     "slug": "binance-smart-chain",
-    "name": "BNB Chain"
+    "name": "BNB Chain",
+    "blockExplorer": "https://bscscan.com/address/"
   },
   {
     "slug": "solana",
-    "name": "Solana"
+    "name": "Solana",
+    "blockExplorer": "https://solscan.io/address/"
   },
   {
     "slug": "huobi",
-    "name": "Huobi Eco Chain"
+    "name": "Huobi Eco Chain",
+    "blockExplorer": "https://www.hecoinfo.com/en-us/address/"
   },
   {
     "slug": "avalanche",
-    "name": "Avalanche C-Chain"
+    "name": "Avalanche C-Chain",
+    "blockExplorer": "https://snowtrace.io/address/"
   },
   {
     "slug": "polygon",
-    "name": "Polygon Matic"
+    "name": "Polygon Matic",
+    "blockExplorer": "https://polygonscan.com/address/"
   },
   {
     "slug": "iotex",
-    "name": "IoTeX"
+    "name": "IoTeX",
+    "blockExplorer": "https://iotexscout.io/address/"
   },
   {
     "slug": "fantom",
-    "name": "Fantom"
+    "name": "Fantom",
+    "blockExplorer": "https://ftmscan.com/address/"
   },
   {
     "slug": "harmony",
-    "name": "Harmony One"
+    "name": "Harmony One",
+    "blockExplorer": "https://explorer.harmony.one/address/"
   },
   {
     "slug": "okc",
-    "name": "OKExChain"
+    "name": "OKExChain",
+    "blockExplorer": "https://www.oklink.com/en/okc/address/"
   },
   {
     "slug": "kcc",
-    "name": "Kucoin Community Chain"
+    "name": "Kucoin Community Chain",
+    "blockExplorer": "https://scan.kcc.io/address/"
   },
   {
     "slug": "kardiachain",
-    "name": "KardiaChain"
+    "name": "KardiaChain",
+    "blockExplorer": "https://explorer.kardiachain.io/address/"
   },
   {
     "slug": "arbitrum",
-    "name": "Arbitrum"
+    "name": "Arbitrum",
+    "blockExplorer": "https://arbiscan.io/address/"
   },
   {
     "slug": "moonriver",
-    "name": "Moonriver"
+    "name": "Moonriver",
+    "blockExplorer": "https://moonriver.moonscan.io/address/"
   },
   {
     "slug": "optimism",
-    "name": "Optimism"
+    "name": "Optimism",
+    "blockExplorer": "https://optimistic.etherscan.io/"
   },
   {
     "slug": "cronos",
-    "name": "Cronos"
+    "name": "Cronos",
+    "blockExplorer": "https://cronoscan.com/address/"
   },
   {
     "slug": "boba",
-    "name": "Boba Network"
+    "name": "Boba Network",
+    "blockExplorer": "https://bobascan.com/address/"
   },
   {
     "slug": "aurora",
-    "name": "Aurora"
+    "name": "Aurora",
+    "blockExplorer": "https://aurorascan.dev/address/"
   },
   {
     "slug": "metis",
-    "name": "Metis Andromeda"
+    "name": "Metis Andromeda",
+    "blockExplorer": "https://andromeda-explorer.metis.io/address/"
   },
   {
     "slug": "fuse",
-    "name": "Fuse"
+    "name": "Fuse",
+    "blockExplorer": "https://explorer.fuse.io/address/"
   },
   {
     "slug": "meter",
-    "name": "Meter"
+    "name": "Meter",
+    "blockExplorer": "https://scan.meter.io/address/"
   },
   {
     "slug": "tomochain",
-    "name": "Tomochain"
+    "name": "Tomochain",
+    "blockExplorer": "https://tomoscan.io/address/"
   },
   {
     "slug": "celo",
-    "name": "Celo"
+    "name": "Celo",
+    "blockExplorer": "https://explorer.celo.org/mainnet/address/"
   },
   {
     "slug": "kava",
-    "name": "Kava"
+    "name": "Kava",
+    "blockExplorer": "https://explorer.kava.io/address/"
   },
   {
     "slug": "gnosis",
-    "name": "Gnosis"
+    "name": "Gnosis",
+    "blockExplorer": "https://gnosisscan.io/"
   },
   {
     "slug": "elastos",
-    "name": "Elastos"
+    "name": "Elastos",
+    "blockExplorer": "https://eth.elastos.io/address/"
   },
   {
     "slug": "hoo",
-    "name": "Hoo"
+    "name": "Hoo",
+    "blockExplorer": "https://hooscan.com/address/"
   },
   {
     "slug": "telos",
-    "name": "Telos"
+    "name": "Telos",
+    "blockExplorer": "https://www.teloscan.io/address/"
   },
   {
     "slug": "energi",
-    "name": "Energi"
+    "name": "Energi",
+    "blockExplorer": "https://explorer.energi.network/address/"
   },
   {
     "slug": "sora",
-    "name": "Sora"
+    "name": "Sora",
+    "blockExplorer": "https://sora.subscan.io/account/"
   },
   {
     "slug": "tron",
-    "name": "Tron"
+    "name": "Tron",
+    "blockExplorer": "https://tronscan.org/#/address/"
   },
   {
     "slug": "theta",
-    "name": "Theta"
+    "name": "Theta",
+    "blockExplorer": "https://explorer.thetatoken.org/account/"
   },
   {
     "slug": "milkomeda",
-    "name": "Milkomeda (Cardano)"
+    "name": "Milkomeda (Cardano)",
+    "blockExplorer": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com/address/"
   },
   {
     "slug": "shiden",
-    "name": "Shiden Network"
+    "name": "Shiden Network",
+    "blockExplorer": "https://shiden.subscan.io/address/"
   },
   {
     "slug": "conflux",
-    "name": "Conflux"
+    "name": "Conflux",
+    "blockExplorer": "https://evm.confluxscan.io/address/"
   },
   {
     "slug": "velas",
-    "name": "Velas"
+    "name": "Velas",
+    "blockExplorer": "https://evmexplorer.velas.com/address/"
   },
   {
     "slug": "bitgert",
-    "name": "BitGert"
+    "name": "BitGert",
+    "blockExplorer": "https://brcscan.net/address/"
   },
   {
     "slug": "canto",
-    "name": "Canto"
+    "name": "Canto",
+    "blockExplorer": "https://evm.explorer.canto.io/address/"
   },
   {
     "slug": "epow",
-    "name": "EthereumPOW"
+    "name": "EthereumPOW",
+    "blockExplorer": "https://explorer.bitquery.io/ethpow/address/"
   },
   {
     "slug": "astar",
-    "name": "Astar"
+    "name": "Astar",
+    "blockExplorer": "https://astar.subscan.io/address/"
   },
   {
     "slug": "moonbeam",
-    "name": "Moonbeam"
+    "name": "Moonbeam",
+    "blockExplorer": "https://moonscan.io/address/"
   },
   {
     "slug": "near",
-    "name": "Near"
+    "name": "Near",
+    "blockExplorer": "https://nearscan.org/accounts/"
   },
   {
     "slug": "syscoin",
-    "name": "Syscoin"
+    "name": "Syscoin",
+    "blockExplorer": "https://explorer.syscoin.org/address/"
   },
   {
     "slug": "zilliqa",
-    "name": "Zilliqa"
+    "name": "Zilliqa",
+    "blockExplorer": "https://viewblock.io/zilliqa/address/"
   },
   {
     "slug": "ronin",
-    "name": "Ronin"
+    "name": "Ronin",
+    "blockExplorer": "https://explorer.roninchain.com/address/"
   }
 ]
