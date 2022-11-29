@@ -61,6 +61,7 @@ const darkTheme = createTheme({
       styleOverrides: {
         root: {
           border: "1px solid #ccc",
+          fontFamily: "monospace",
         },
       },
     },
