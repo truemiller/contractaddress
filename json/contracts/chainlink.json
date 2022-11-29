@@ -1,0 +1,68 @@
+[
+  {
+    "projectSlug": "chainlink",
+    "name": "LINK Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+      },
+      {
+        "blockchainSlug": "gnosis",
+        "address": "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39"
+      },
+      {
+        "blockchainSlug": "huobi",
+        "address": "0x9e004545c59d359f6b7bfb06a26390b087717b42"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0x218532a12a389a4a92fc0c5fb22901d1c19198aa"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x5947bb275c521040051d82396192181b413227a3"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4"
+      },
+      {
+        "blockchainSlug": "sora",
+        "address": "0x008484148dcf23d1b48908393e7a00d5fdc3bf81029a73eeca62a15ebfb1205a"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8"
+      },
+      {
+        "blockchainSlug": "milkomeda",
+        "address": "0xf390830df829cf22c53c8840554b98eafc5dcbc2"
+      },
+      {
+        "blockchainSlug": "energi",
+        "address": "0x68ca48ca2626c415a89756471d4ade2cc9034008"
+      },
+      {
+        "blockchainSlug": "osmosis",
+        "address": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049"
+      },
+      {
+        "blockchainSlug": "near",
+        "address": "514910771af9ca656af840dff83e8264ecf986ca.factory.bridge.near"
+      }
+    ]
+  }
+]
