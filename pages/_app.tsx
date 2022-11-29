@@ -30,7 +30,6 @@ const drawerWidth = 300;
 const darkTheme = createTheme({
   palette: {
     mode: "light",
-    background: "rgb(0, 30, 60)",
   },
   components: {
     MuiTypography: {
