@@ -1,0 +1,16 @@
+[
+  {
+    "projectSlug": "apecoin",
+    "name": "APE Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x4d224452801aced8b2f0aebe155379bb5d594381"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xb7b31a6bc18e48888545ce79e83e06003be70930"
+      }
+    ]
+  }
+]

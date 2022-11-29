@@ -66,5 +66,6 @@
   { "slug": "wbtc", "name": "WBTC" },
   { "slug": "ton", "name": "The Open Network" },
   { "slug": "quant", "name": "Quant" },
-  { "slug": "cronos", "name": "Cronos" }
+  { "slug": "cronos", "name": "Cronos" },
+  { "slug": "apecoin", "name": "ApeCoin" }
 ]
