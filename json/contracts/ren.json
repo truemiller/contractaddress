@@ -790,5 +790,165 @@
         "address": "LUNAZQmNvQYHycB9m3kE95afQQyf4LZw1pfXKvZaZar"
       }
     ]
+  },
+  {
+    "projectSlug": "ren",
+    "name": "renArbETH Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      },
+      {
+        "blockchainSlug": "moonbeam",
+        "address": "0xE48a34Ca1d2EC3AC33fBeE29cAA03E459e87faB7"
+      }
+    ]
+  },
+  {
+    "projectSlug": "ren",
+    "name": "renArbETH Gateway",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "moonbeam",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      }
+    ]
+  },
+  {
+    "projectSlug": "ren",
+    "name": "renAVAX Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xA9A731AEDA12A745B2F3f79b73DD0f20C2645fA3"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xA9A731AEDA12A745B2F3f79b73DD0f20C2645fA3"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0xA9A731AEDA12A745B2F3f79b73DD0f20C2645fA3"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xA9A731AEDA12A745B2F3f79b73DD0f20C2645fA3"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0xA9A731AEDA12A745B2F3f79b73DD0f20C2645fA3"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "moonbeam",
+        "address": "0x2698Fc0d83c6227BFc7c4c30bEDbe0Ff7Eda84d8"
+      },
+      {
+        "blockchainSlug": "solana",
+        "address": "GPD881hvMpMB1SnB4q4N9mtRn2FDbMTGq4ysSCjzucUA"
+      }
+    ]
+  },
+  {
+    "projectSlug": "ren",
+    "name": "renAVAX Gateway",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "moonbeam",
+        "address": "0x05c37FD270Ab99bC5A8599CFEcC1C4f6E95A9e7f"
+      },
+      {
+        "blockchainSlug": "solana",
+        "address": "H5AMZeawDD8y3Y5UrCq9SsmZv9ApFCVZ2psvpRNRGY1u"
+      }
+    ]
   }
 ]
