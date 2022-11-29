@@ -106,51 +106,49 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Stack>
-        <Stack direction={"row"}>
-          <Drawer
-            variant="permanent"
-            sx={{
-              display: "block",
-              width: drawerWidth,
-              background: "#eee",
-            }}
-          >
-            <Toolbar sx={{ width: drawerWidth }}>
-              <Typography marginX={"auto"}>
-                <Link
-                  href="/"
-                  passHref
-                  style={{
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Contract Address
-                </Link>
-              </Typography>
-            </Toolbar>
-            {projects.map((project: Project) => (
-              <List key={project.slug} dense disablePadding>
-                <Link
-                  href={`/${project.slug}`}
-                  style={{ textDecoration: "none", color: "black" }}
-                >
-                  <ListItem disablePadding>
-                    <ListItemButton>
-                      <ListItemText primary={project.name} />
-                    </ListItemButton>
-                  </ListItem>
-                </Link>
-              </List>
-            ))}
-          </Drawer>
-          <Box component={"main"} sx={{ flexGrow: 1 }}>
-            <Container>
-              <Component {...pageProps} />
-            </Container>
-          </Box>
-        </Stack>
+      <Stack direction={"row"}>
+        <Drawer
+          variant="permanent"
+          sx={{
+            display: "block",
+            width: drawerWidth,
+            background: "#eee",
+          }}
+        >
+          <Toolbar sx={{ width: drawerWidth }}>
+            <Typography marginX={"auto"}>
+              <Link
+                href="/"
+                passHref
+                style={{
+                  textDecoration: "none",
+                  fontWeight: "bold",
+                }}
+              >
+                Contract Address
+              </Link>
+            </Typography>
+          </Toolbar>
+          {projects.map((project: Project) => (
+            <List key={project.slug} dense disablePadding>
+              <Link
+                href={`/${project.slug}`}
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <ListItem disablePadding>
+                  <ListItemButton>
+                    <ListItemText primary={project.name} />
+                  </ListItemButton>
+                </ListItem>
+              </Link>
+            </List>
+          ))}
+        </Drawer>
+        <Box component={"main"} sx={{ flexGrow: 1 }}>
+          <Container>
+            <Component {...pageProps} />
+          </Container>
+        </Box>
       </Stack>
     </ThemeProvider>
   );
