@@ -156,8 +156,4 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 export default MyApp;
 
-const Header = (): JSX.Element => {
-  return <header></header>;
-};
-
 // return <Component {...pageProps} />;
