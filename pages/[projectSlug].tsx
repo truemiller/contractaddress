@@ -162,9 +162,15 @@ const ContractTableRows = ({
             </TableCell>
             <TableCell>
               <Stack direction={"row"}>
-                <Link href={`${blockchain?.blockExplorer}${contract.address}`}>
-                  {contract.address}
-                </Link>
+                {blockchain?.blockExplorer ? (
+                  <Link
+                    href={`${blockchain?.blockExplorer}${contract.address}`}
+                  >
+                    {contract.address}
+                  </Link>
+                ) : (
+                  <Typography>{contract.address}</Typography>
+                )}
                 <ContentCopyIcon
                   fontSize="small"
                   onClick={() => handleCopy(contract.address)}
