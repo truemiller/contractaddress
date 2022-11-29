@@ -61,5 +61,6 @@
   },
   { "slug": "floki-inu", "name": "Floki Inu" },
   { "slug": "weth", "name": "WETH" },
-  { "slug": "ren", "name": "Ren" }
+  { "slug": "ren", "name": "Ren" },
+  { "slug": "chainlink", "name": "ChainLink" }
 ]
