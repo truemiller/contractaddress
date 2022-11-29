@@ -42,6 +42,10 @@
       {
         "blockchainSlug": "solana",
         "address": "FR87nWEUxVgerFGhZM8Y4AggKGLnaXswr1Pd8wZ4kZcp"
+      },
+      {
+        "blockchainSlug": "evmos",
+        "address": "0xe03494d0033687543a80c9b1ca7d6237f2ea8bd8"
       }
     ]
   },
