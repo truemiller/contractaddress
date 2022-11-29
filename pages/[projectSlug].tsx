@@ -76,7 +76,7 @@ const ProjectPage: NextPage = () => {
                   <Typography variant="h3" id={contractData.name}>
                     {contractData.name}
                   </Typography>
-                  <TableContainer component={Paper} elevation={4}>
+                  <TableContainer component={Paper} elevation={0}>
                     <Table size="small">
                       <TableHead>
                         <TableRow sx={{ background: "#eee" }}>
