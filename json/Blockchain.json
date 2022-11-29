@@ -248,5 +248,10 @@
     "slug": "klaytn",
     "name": "Klaytn",
     "blockExplorer": "https://scope.klaytn.com/account/"
+  },
+  {
+    "slug": "evmos",
+    "name": "Evmos",
+    "blockExplorer": "https://evm.evmos.org/address/"
   }
 ]
