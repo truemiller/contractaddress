@@ -1,4 +1,4 @@
-import { Stack, Typography } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -15,15 +15,20 @@ const Home: NextPage = () => {
         contracts."
         />
       </Head>
-      <Stack>
-        <Typography variant="h1" fontWeight={"bold"}>
+      <Box
+        flexGrow={1}
+        height={"100vh"}
+        display="flex"
+        flexDirection={"column"}
+      >
+        <Typography variant="h1" fontWeight={"bold"} mt={"auto"}>
           Contract Address
         </Typography>
-        <Typography>
+        <Typography mb={"auto"}>
           Find contract addresses for {Projects.length} cryptocurrency projects
           across {Blockchains.length} blockchains.
         </Typography>
-      </Stack>
+      </Box>
     </>
   );
 };
