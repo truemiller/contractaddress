@@ -53,10 +53,10 @@ const ProjectPage: NextPage = () => {
           <TableContainer component={Paper}>
             <Table size="small">
               <TableHead>
-                <TableRow>
-                  <TableCell>Contract</TableCell>
-                  <TableCell>Chain</TableCell>
-                  <TableCell>Address</TableCell>
+                <TableRow sx={{ background: "#eee" }}>
+                  <TableCell sx={{ fontWeight: "bolder" }}>Contract</TableCell>
+                  <TableCell sx={{ fontWeight: "bolder" }}>Chain</TableCell>
+                  <TableCell sx={{ fontWeight: "bolder" }}>Address</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>

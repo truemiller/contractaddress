@@ -29,44 +29,37 @@ const drawerWidth = 300;
 
 const darkTheme = createTheme({
   palette: {
-    mode: "dark",
-    background: {
-      default: "#222222",
-    },
+    mode: "light",
+    background: "rgb(0, 30, 60)",
   },
   components: {
-    MuiAppBar: {
+    MuiTypography: {
       styleOverrides: {
         root: {
-          boxShadow: "none",
-          borderBottom: "1px solid #333",
+          fontFamily: "monospace",
         },
       },
     },
     MuiTableCell: {
       styleOverrides: {
         root: {
-          border: "1px solid #333",
+          fontFamily: "monospace",
+          border: "1px solid #ccc",
         },
       },
     },
-    MuiToolbar: {
+    MuiTableHead: {
       styleOverrides: {
         root: {
-          background: "#222",
+          fontWeight: "bold",
         },
       },
     },
-    MuiPaper: {
+    MuiListItemText: {
       styleOverrides: {
         root: {
-          // background: "#111",
+          color: "black",
         },
-      },
-    },
-    MuiTableContainer: {
-      styleOverrides: {
-        root: {},
       },
     },
   },
@@ -91,22 +84,20 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Stack>
-        <AppBar position="fixed" sx={{ left: drawerWidth }}>
-          <Toolbar>
-            <Typography variant="h6"></Typography>
-          </Toolbar>
-        </AppBar>
         <Stack direction={"row"}>
           <Drawer
             variant="permanent"
             sx={{ display: "block", width: drawerWidth }}
           >
-            <Toolbar sx={{ width: drawerWidth }}>
-              <Typography>
+            <Toolbar sx={{ width: drawerWidth, background: "#eee" }}>
+              <Typography marginX={"auto"}>
                 <Link
                   href="/"
                   passHref
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{
+                    textDecoration: "none",
+                    fontWeight: "bold",
+                  }}
                 >
                   Contract Address
                 </Link>
@@ -117,7 +108,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <Link
                   href={`/${project.slug}`}
                   passHref
-                  style={{ textDecoration: "none", color: "white" }}
+                  style={{ textDecoration: "none" }}
                 >
                   <ListItem disablePadding>
                     <ListItemButton>
@@ -128,7 +119,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               </List>
             ))}
           </Drawer>
-          <Box component={"main"} sx={{ p: 5, flexGrow: 1, pt: 12 }}>
+          <Box component={"main"} sx={{ p: 5, flexGrow: 1 }}>
             <Container>
               <Component {...pageProps} />
             </Container>
