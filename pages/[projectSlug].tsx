@@ -59,7 +59,7 @@ const ProjectPage: NextPage = () => {
         <title>{project?.name} Contract Addresses</title>
         <meta
           name="description"
-          content={`Find contract addresses for ${project?.name}`}
+          content={`Find ${numberOfContracts} contract addresses for ${project?.name}`}
         />
       </Head>
       {project && contracts ? (
