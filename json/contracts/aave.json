@@ -1,0 +1,48 @@
+[
+  {
+    "projectSlug": "aave",
+    "name": "AAVE Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+      },
+      {
+        "blockchainSlug": "huobi",
+        "address": "0x202b4936fe1a82a4965220860ae46d7d3939bb25"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xd6df932a45c0f255f85145f286ea0b292b21c90b"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x6a07a792ab2965c72a5b8088d3a069a7ac3a993b"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0xcf323aad9e522b93f11c352caa519ad0e14eb40f"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x63a72806098bd3d9520cc43356dd78afe5d386d9"
+      },
+      {
+        "blockchainSlug": "sora",
+        "address": "0x0091bd8d8295b25cab5a7b8b0e44498e678cfc15d872ede3215f7d4c7635ba36"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xfb6115445bff7b52feb98650c87f44907e58f802"
+      },
+      {
+        "blockchainSlug": "energi",
+        "address": "0xa7f2f790355e0c32cab03f92f6eb7f488e6f049a"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x76fb31fb4af56892a25e32cfc43de717950c9278"
+      }
+    ]
+  }
+]
