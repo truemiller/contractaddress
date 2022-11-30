@@ -70,6 +70,22 @@ const ProjectPage: NextPage = () => {
               Find {numberOfContracts} contract addresses for {project?.name}.
             </Typography>
             <Typography variant="h2">Contract Addresses</Typography>
+
+            <List dense disablePadding>
+              {contracts.map((contractData: ContractData) => {
+                return (
+                  <Link
+                    key={contractData.name}
+                    href={`#${contractData.name}`}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <ListItem>
+                      <ListItemText>{contractData?.name}</ListItemText>
+                    </ListItem>
+                  </Link>
+                );
+              })}
+            </List>
             {contracts.map((contractData: ContractData) => {
               return (
                 <>
@@ -100,28 +116,6 @@ const ProjectPage: NextPage = () => {
               );
             })}
           </Box>
-          <Drawer variant="permanent" anchor="right">
-            <Toolbar>
-              <Typography>On this page</Typography>
-            </Toolbar>
-            <List dense disablePadding>
-              {contracts.map((contractData: ContractData) => {
-                return (
-                  <Link
-                    key={contractData.name}
-                    href={`#${contractData.name}`}
-                    style={{ textDecoration: "none" }}
-                  >
-                    <ListItem>
-                      <ListItemButton>
-                        <ListItemText>{contractData?.name}</ListItemText>
-                      </ListItemButton>
-                    </ListItem>
-                  </Link>
-                );
-              })}
-            </List>
-          </Drawer>
         </>
       ) : (
         <Suspense>Loading ... </Suspense>
