@@ -1,0 +1,182 @@
+[
+  {
+    "projectSlug": "bancor",
+    "name": "BNT Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "vBNT Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x48Fb253446873234F2fEBbF9BdeAA72d9d387f94"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "bnBNT Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xAB05Cf7C6c3a288cd36326e4f7b8600e7268E344"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "AutoCompoundingRewards",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x036f8B31D78ca354Ada40dbd117e54F78B6f6CDc"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "BancorGovernance",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x892f481BD6E9d7D26aE365211D9B45175d5D00e4"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "BancorNetwork",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xeEF417e1D5CC832e619ae18D2F140De2999dD4fB"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "BancorNetworkInfo",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x8E303D296851B320e6a697bAcB979d13c9D6E760"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "BancorPortal",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x9f292ccB69fF9A0644475C7bC8d4651039e133d5"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "BancorV1Migration",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xd761D538240E23B465c9c08236D781029DC3cc96"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "BNTPool",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x02651E355D26f3506C1E644bA393FDD9Ac95EaCa"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "ExternalILVault",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xFd31662b3d54eddE9B6Bdd32c9c27C8E292cAD57"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "ExternalRewardsVault",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x2A2A2BE5cCf20F3633c6ca2D429Ac51186a631e1"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "BancorV1Migration",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xd761D538240E23B465c9c08236D781029DC3cc96"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "MasterVault",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x649765821D9f64198c905eC0B2B037a4a52Bc373"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "NetworkSettings",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x83E1814ba31F7ea95D216204BB45FE75Ce09b14F"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "PendingWithdrawals",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x857Eb0Eb2572F7092C417CD386BA82e45EbA9B8a"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "PoolMigrator",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x97CeC0F2D355BF073619A5093F989709caE4a191"
+      }
+    ]
+  },
+  {
+    "projectSlug": "bancor",
+    "name": "StandardRewards",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xb0B958398ABB0b5DB4ce4d7598Fb868f5A00f372"
+      }
+    ]
+  }
+]

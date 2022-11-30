@@ -71,5 +71,9 @@
   {
     "slug": "frax",
     "name": "Frax"
+  },
+  {
+    "slug": "bancor",
+    "name": "Bancor"
   }
 ]
