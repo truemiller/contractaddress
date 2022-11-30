@@ -81,16 +81,6 @@
   },
   {
     "projectSlug": "bancor",
-    "name": "BancorV1Migration",
-    "contracts": [
-      {
-        "blockchainSlug": "ethereum",
-        "address": "0xd761D538240E23B465c9c08236D781029DC3cc96"
-      }
-    ]
-  },
-  {
-    "projectSlug": "bancor",
     "name": "BNTPool",
     "contracts": [
       {
