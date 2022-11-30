@@ -76,5 +76,9 @@
     "slug": "bancor",
     "name": "Bancor"
   },
-  { "slug": "pancakeswap", "name": "PancakeSwap" }
+  { "slug": "pancakeswap", "name": "PancakeSwap" },
+  {
+    "slug": "fantom",
+    "name": "Fantom"
+  }
 ]
