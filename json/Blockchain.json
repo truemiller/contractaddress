@@ -253,5 +253,10 @@
     "slug": "evmos",
     "name": "Evmos",
     "blockExplorer": "https://evm.evmos.org/address/"
+  },
+  {
+    "slug": "bttc",
+    "name": "BitTorrent",
+    "blockExplorer": "https://bttcscan.com/address/"
   }
 ]
