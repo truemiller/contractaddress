@@ -76,6 +76,82 @@
       {
         "blockchainSlug": "avalanche",
         "address": "0x9E4AAbd2B3E60Ee1322E94307d0776F2c8e6CFbb"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xf38a7A7Ac2D745E2204c13F824c00139DF831FFf"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x4D2cf285a519261F30b4d9c2c344Baf260d65Fa2"
+      },
+      {
+        "blockchainSlug": "huobi",
+        "address": "0x62710D18596c808c70864695c77480De252DD9D5"
+      },
+      {
+        "blockchainSlug": "gnosis",
+        "address": "0xe5759714998e8B50A33c7333C04C2d02e5dcE77f"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xA63B831264183D755756ca9AE5190fF5183d65D6"
+      },
+      {
+        "blockchainSlug": "kcc",
+        "address": "0x5DDac4C73b15353dc4a00DaeAfb38631a7cBd389"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0xbeA02dc919B08b5aE2158a8fBC60D4DA5640737B"
+      },
+      {
+        "blockchainSlug": "okc",
+        "address": "0x4652ab8e8821F234407b1f1cB0ac8dD7E617BfF8"
+      },
+      {
+        "blockchainSlug": "elastos",
+        "address": "0xbF9Bebfd6954985E41Fed497a5421B3B5B0f66AB"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0xdCB8C29298AF7E9C48b56dB3c87dB6d124d1Ef97"
+      },
+      {
+        "blockchainSlug": "telos",
+        "address": "0x75840EBB437981a3F3F1F004513821E0CcDCFC21"
+      },
+      {
+        "blockchainSlug": "cronos",
+        "address": "0xdB02A597b283eACb9436Cd2a2d15039a11A3299d"
+      },
+      {
+        "blockchainSlug": "fuse",
+        "address": "0x9a5De8C973c2f64f0f518DE581BcC2aa2dF8A621"
+      },
+      {
+        "blockchainSlug": "iotex",
+        "address": "0xAEB801BA5Cf1233B2a3765890D4f8f8C8141Fa43"
+      },
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xb5e9F6C58f548CeE53257304e287b23757eFFCA1"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0x0A2e5A3Dc2f74E5Bfaf0Bf90685A5A899f379Cb0"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0xeadE97aFC8f79A8E5Ba85d57C4a4E629b1160C6A"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0x7a2c1D96C76B6EB62241df4d2fAEb9F0D3D59E10"
+      },
+      {
+        "blockchainSlug": "bttc",
+        "address": "0x7520d45bcc30be211c6b28f6291522555eda4d6c"
       }
     ]
   },
@@ -86,6 +162,82 @@
       {
         "blockchainSlug": "avalanche",
         "address": "0x091d35d7F63487909C863001ddCA481c6De47091"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0xE3BD06c7ac7E1CeB17BdD2E5BA83E40D1515AF2a"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x7Ba73c99e6f01a37f3e33854c8F544BbbadD3420"
+      },
+      {
+        "blockchainSlug": "huobi",
+        "address": "0x997fCE9164D630CC58eE366d4D275B9D773d54A4"
+      },
+      {
+        "blockchainSlug": "gnosis",
+        "address": "0xCB018587dA9590A18f49fFE2b85314c33aF3Ad3B"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x31aFfd875e9f68cd6Cd12Cee8943566c9A4bBA13"
+      },
+      {
+        "blockchainSlug": "kcc",
+        "address": "0x1f9aa39001ed0630dA6854859D7B3eD255648599"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0xCdde1AbfF5Ae3Cbfbdb55c1e866Ac56380e18720"
+      },
+      {
+        "blockchainSlug": "okc",
+        "address": "0x1116f8B82028324f2065078b4ff6b47F1Cc22B97"
+      },
+      {
+        "blockchainSlug": "elastos",
+        "address": "0x440a1B8b8e968D6765D41E6b92DF3cBb0e9D2b1e"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0xd45145f10fD4071dfC9fC3b1aefCd9c83A685e77"
+      },
+      {
+        "blockchainSlug": "telos",
+        "address": "0x47c3163e691966f8c1b93B308A236DDB3C1C592d"
+      },
+      {
+        "blockchainSlug": "cronos",
+        "address": "0xEEa0e2830D09D8786Cb9F484cA20898b61819ef1"
+      },
+      {
+        "blockchainSlug": "fuse",
+        "address": "0x779407e40Dad9D70Ba5ADc30E45cC3494ec71ad2"
+      },
+      {
+        "blockchainSlug": "iotex",
+        "address": "0xF96bE66DA0b9bC9DFD849827b4acfA7e8a6F3C42"
+      },
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x6511eBA915fC1b94b2364289CCa2b27AE5898d80"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0xA59B2044EAFD15ee4deF138D410d764c9023E1F0"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0xedfad3a0f42a8920b011bb0332ade632e552d846"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0xC012C4b3d253A8F22d5e4ADA67ea2236FF9778fc"
+      },
+      {
+        "blockchainSlug": "bttc",
+        "address": "0xc06348aee3f3e92ee452816e0d3f25c919f6fb04"
       }
     ]
   },
@@ -176,6 +328,96 @@
       {
         "blockchainSlug": "bttc",
         "address": "0xb1F120578A7589FD9336315C4dF7d5A5d90173A8 "
+      }
+    ]
+  },
+  {
+    "projectSlug": "elk-finance",
+    "name": "ElkNet Reservoir",
+    "contracts": [
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "fantom",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "huobi",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "gnosis",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "kcc",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "okc",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "hoo",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "elastos",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "moonriver",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "cronos",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "telos",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "fuse",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "iotex",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "arbitrum",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "optimism",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "kava",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
+      },
+      {
+        "blockchainSlug": "bttc",
+        "address": "0x42424242B0c0d8A19dCD0dF362815E242586354A"
       }
     ]
   }
