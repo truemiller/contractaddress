@@ -1,0 +1,20 @@
+[
+  {
+    "projectSlug": "huobi",
+    "name": "HT Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0xbaa0974354680b0e8146d64bb27fb92c03c4a2f2"
+      },
+      {
+        "blockchainSlug": "elastos",
+        "address": "0xeceefc50f9aacf0795586ed90a8b9e24f55ce3f3"
+      }
+    ]
+  }
+]

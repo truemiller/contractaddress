@@ -81,5 +81,6 @@
     "slug": "fantom",
     "name": "Fantom"
   },
-  { "slug": "aave", "name": "Aave" }
+  { "slug": "aave", "name": "Aave" },
+  { "slug": "huobi", "name": "Huobi" }
 ]
