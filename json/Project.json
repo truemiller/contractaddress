@@ -90,5 +90,6 @@
   {
     "slug": "usdc",
     "name": "USDC"
-  }
+  },
+  { "slug": "trueusd", "name": "TrueUSD" }
 ]
