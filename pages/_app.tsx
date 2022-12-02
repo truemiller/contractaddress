@@ -129,20 +129,22 @@ function MyApp({ Component, pageProps }: AppProps) {
               </Link>
             </Typography>
           </Toolbar>
-          {projects.map((project: Project) => (
-            <List key={project.slug} dense disablePadding>
+          <List component={"ul"} dense disablePadding>
+            {projects.map((project: Project) => (
               <Link
+                key={project.slug}
                 href={`/${project.slug}`}
                 style={{ textDecoration: "none", color: "black" }}
+                passHref
               >
-                <ListItem disablePadding>
+                <ListItem disablePadding component={"li"}>
                   <ListItemButton>
                     <ListItemText primary={project.name} />
                   </ListItemButton>
                 </ListItem>
               </Link>
-            </List>
-          ))}
+            ))}
+          </List>
         </Drawer>
         <Box component={"main"} sx={{ flexGrow: 1 }}>
           <Container>
