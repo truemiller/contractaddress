@@ -99,5 +99,9 @@
   {
     "slug": "usdd",
     "name": "USDD"
+  },
+  {
+    "slug": "bittorrent",
+    "name": "Bittorrent"
   }
 ]
