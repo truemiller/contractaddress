@@ -1,0 +1,24 @@
+[
+  {
+    "projectSlug": "decentraland",
+    "name": "MANA Token",
+    "contracts": [
+      {
+        "projectSlug": "ethereum",
+        "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
+      },
+      {
+        "projectSlug": "polygon",
+        "address": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4"
+      },
+      {
+        "projectSlug": "sora",
+        "address": "0x00449af28b82575d6ac0e8c6d20e095be0917e1b0eaa63962a1dc2c6b81c2b0d"
+      },
+      {
+        "projectSlug": "energi",
+        "address": "0xe469960b138abbfd4c82147393e955c537bb6b54"
+      }
+    ]
+  }
+]

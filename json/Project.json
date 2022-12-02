@@ -93,5 +93,7 @@
   },
   { "slug": "trueusd", "name": "TrueUSD" },
   { "slug": "binance-usd", "name": "BUSD" },
-  { "slug": "axie-infinity", "name": "Axie Infinity" }
+  { "slug": "axie-infinity", "name": "Axie Infinity" },
+  { "slug": "usdp", "name": "USDP" },
+  { "slug": "decentraland", "name": "Decentraland" }
 ]
