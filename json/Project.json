@@ -92,5 +92,6 @@
     "name": "USDC"
   },
   { "slug": "trueusd", "name": "TrueUSD" },
-  { "slug": "binance-usd", "name": "BUSD" }
+  { "slug": "binance-usd", "name": "BUSD" },
+  { "slug": "axie-infinity", "name": "Axie Infinity" }
 ]
