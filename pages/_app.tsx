@@ -131,18 +131,21 @@ function MyApp({ Component, pageProps }: AppProps) {
           </Toolbar>
           <List component={"ul"} dense disablePadding>
             {projects.map((project: Project) => (
-              <Link
-                key={project.slug}
-                href={`/${project.slug}`}
-                style={{ textDecoration: "none", color: "black" }}
-                passHref
-              >
-                <ListItem disablePadding component={"li"}>
+              <ListItem key={project.slug} disablePadding component={"li"}>
+                <Link
+                  href={`/${project.slug}`}
+                  style={{
+                    textDecoration: "none",
+                    color: "black",
+                    width: "100%",
+                  }}
+                  passHref
+                >
                   <ListItemButton>
                     <ListItemText primary={project.name} />
                   </ListItemButton>
-                </ListItem>
-              </Link>
+                </Link>
+              </ListItem>
             ))}
           </List>
         </Drawer>
