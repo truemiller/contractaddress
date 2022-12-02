@@ -258,5 +258,29 @@
     "slug": "bttc",
     "name": "BitTorrent",
     "blockExplorer": "https://bttcscan.com/address/"
+  },
+  {
+    "slug": "cosmos",
+    "name": "Cosmos"
+  },
+  {
+    "slug": "dfk",
+    "name": "DFK Network",
+    "blockExplorer": "https://subnets.avax.network/defi-kingdoms/address/"
+  },
+  {
+    "slug": "dogechain",
+    "name": "Dogechain",
+    "blockExplorer": "https://explorer.dogechain.dog/address/"
+  },
+  {
+    "slug": "nova",
+    "name": "Arbitrum Nova",
+    "blockExplorer": "https://nova.arbiscan.io/address/"
+  },
+  {
+    "slug": "sx",
+    "name": "SX Network",
+    "blockExplorer": "https://explorer.sx.technology/address/"
   }
 ]
