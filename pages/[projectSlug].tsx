@@ -71,21 +71,20 @@ const ProjectPage: NextPage = () => {
             </Typography>
             <Typography variant="h2">Contract Addresses</Typography>
 
-            <List dense disablePadding>
+            <ul>
               {contracts.map((contractData: ContractData) => {
                 return (
-                  <Link
-                    key={contractData.name}
-                    href={`#${contractData.name}`}
-                    style={{ textDecoration: "none" }}
-                  >
-                    <ListItem>
-                      <ListItemText>{contractData?.name}</ListItemText>
-                    </ListItem>
-                  </Link>
+                  <li key={contractData.name}>
+                    <Link
+                      href={`#${contractData.name}`}
+                      style={{ textDecoration: "none" }}
+                    >
+                      {contractData?.name}
+                    </Link>
+                  </li>
                 );
               })}
-            </List>
+            </ul>
             {contracts.map((contractData: ContractData) => {
               return (
                 <>
