@@ -1,0 +1,86 @@
+[
+  {
+    "projectSlug": "axie-infinity",
+    "name": "AXS Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0x715d400f88c167884bbcc41c5fea407ed4d2f8a0"
+      },
+      {
+        "blockchainSlug": "harmony",
+        "address": "0x14a7b318fed66ffdcc80c1517c172c13852865de"
+      },
+      {
+        "blockchainSlug": "ronin",
+        "address": "0x97a9107c1793bc407d6f527b77e7fff4d812bece"
+      },
+      {
+        "blockchainSlug": "energi",
+        "address": "0x7cd3d51bee45434dd80822c5d58b999333b69ffb"
+      }
+    ]
+  },
+  {
+    "projectSlug": "axie-infinity",
+    "name": "SLP Token",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25"
+      },
+      {
+        "blockchainSlug": "ronin",
+        "address": "0xa8754b9fa15fc18bb59458815510e40a12cd2014"
+      },
+      {
+        "blockchainSlug": "energi",
+        "address": "0xa598b856fa2d5e016d2e84a6a86ff99d69dd841e"
+      }
+    ]
+  },
+  {
+    "projectSlug": "axie-infinity",
+    "name": "AXIE ERC721",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xF5b0A3eFB8e8E4c201e2A935F110eAaF3FFEcb8d"
+      }
+    ]
+  },
+  {
+    "projectSlug": "axie-infinity",
+    "name": "Claim Reward",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x47340deb65810a1f0d0b1EaE7489d1218c1c150F"
+      }
+    ]
+  },
+  {
+    "projectSlug": "axie-infinity",
+    "name": "Marketplace",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0xf4985070ce32b6b1994329df787d1acc9a2dd9e2"
+      }
+    ]
+  },
+  {
+    "projectSlug": "axie-infinity",
+    "name": "Breeding Contract",
+    "contracts": [
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x425372c0ac9d559a186a08a3854e0ddea1a00d5c"
+      }
+    ]
+  }
+]
