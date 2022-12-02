@@ -82,5 +82,9 @@
     "name": "Fantom"
   },
   { "slug": "aave", "name": "Aave" },
-  { "slug": "huobi", "name": "Huobi" }
+  { "slug": "huobi", "name": "Huobi" },
+  {
+    "slug": "chiliz",
+    "name": "Chiliz"
+  }
 ]

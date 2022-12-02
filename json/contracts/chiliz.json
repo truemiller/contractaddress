@@ -1,0 +1,16 @@
+[
+  {
+    "projectSlug": "chiliz",
+    "name": "CHZ Token",
+    "contracts": [
+      {
+        "blockchainSlug": "etheruem",
+        "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af"
+      },
+      {
+        "blockchainSlug": "energi",
+        "address": "0xa82fc24687ffbde40776dede7c70f845b67f3ef7"
+      }
+    ]
+  }
+]
