@@ -1,0 +1,24 @@
+[
+  {
+    "projectSlug": "usdd",
+    "name": "USDD Token",
+    "contracts": [
+      {
+        "blockchainSlug": "tron",
+        "address": "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
+      },
+      {
+        "blockchainSlug": "binance-smart-chain",
+        "address": "0xd17479997f34dd9156deef8f95a52d81d265be9c"
+      },
+      {
+        "blockchainSlug": "avalanche",
+        "address": "0xb514cabd09ef5b169ed3fe0fa8dbd590741e81c2"
+      },
+      {
+        "blockchainSlug": "ethereum",
+        "address": "0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6"
+      }
+    ]
+  }
+]
