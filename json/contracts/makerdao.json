@@ -14,6 +14,18 @@
       {
         "blockchainSlug": "ethereum",
         "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+      },
+      {
+        "blockchainSlug": "polygon",
+        "address": "0x6f7c932e7684666c9fd1d44527765433e01ff61d"
+      },
+      {
+        "blockchainSlug": "sora",
+        "address": "0x00ec184ef0b4bd955db05eea5a8489ae72888ab6e63682a15beca1cd39344c8f"
+      },
+      {
+        "blockchainSlug": "energi",
+        "address": "0x050317d93f29d1ba5ff3eac3b8157fd4e345588d"
       }
     ]
   },
