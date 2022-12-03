@@ -107,7 +107,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Stack direction={"row"}>
+      <Stack>
         <Drawer
           variant="permanent"
           sx={{
@@ -159,5 +159,3 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 export default MyApp;
-
-// return <Component {...pageProps} />;
