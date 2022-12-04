@@ -107,12 +107,16 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Stack>
+      <Stack direction={"row"}>
         <Drawer
           variant="permanent"
           sx={{
-            display: "block",
+            flexShrink: 0,
             width: drawerWidth,
+            "& .MuiDrawer-paper": {
+              width: drawerWidth,
+              boxSizing: "border-box",
+            },
           }}
         >
           <Toolbar sx={{ width: drawerWidth }}>
