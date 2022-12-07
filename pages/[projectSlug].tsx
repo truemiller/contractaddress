@@ -107,10 +107,8 @@ const ContractTableRows = ({
 
   const handleCopy = (value: string) => {
     window.navigator.clipboard.writeText(value);
-    setSnackbarOpen(true);
+    alert(`Copied ${value} to clipboard.`);
   };
-
-  const [snackbarOpen, setSnackbarOpen] = useState(false);
 
   return (
     <>
@@ -121,14 +119,16 @@ const ContractTableRows = ({
         return (
           <tr key={`${contract.blockchainSlug}-${contract.address}`}>
             <td>
-              <span>
-                <Image
-                  src={`/logos/${contract.blockchainSlug}.webp`}
-                  width={16}
-                  height={16}
-                  alt=""
-                  style={{ marginRight: 5, borderRadius: "100%" }}
-                />
+              <span className="flex">
+                <span style={{ width: 16, height: 16 }} className="mr-2">
+                  <Image
+                    src={`/logos/${contract.blockchainSlug}.webp`}
+                    width={16}
+                    height={16}
+                    alt={`${blockchain?.name} logo`}
+                    style={{ marginRight: 5, borderRadius: "100%" }}
+                  />
+                </span>
                 {blockchain?.name}
               </span>
             </td>
