@@ -34,6 +34,10 @@ tbody tr {
   @apply bg-white border-b border-gray-300;
 }
 
+tbody tr:hover {
+  @apply bg-slate-100;
+}
+
 tbody tr td {
   @apply py-4 px-6;
 }
