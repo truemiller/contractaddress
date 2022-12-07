@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-5xl font-extrabold my-5;
+}
+
+h2 {
+  @apply text-4xl font-bold my-4;
+}
+
+h3 {
+  @apply text-3xl font-semibold my-3;
+}
+
+p {
+  @apply my-1;
+}
+
+table {
+  @apply w-full text-sm text-left my-5 border;
+}
+
+table caption {
+  @apply text-left p-5 bg-gray-100 rounded-t-xl border font-bold;
+}
+
+thead {
+  @apply text-xs uppercase bg-gray-100;
+}
+
+tbody tr {
+  @apply bg-white border-b border-gray-300;
+}
+
+tbody tr td {
+  @apply py-4 px-6;
+}
+
+tbody tr td span {
+  @apply flex;
+}
+
+th {
+  @apply py-3 px-6;
+}
+
+main {
+  @apply container mx-auto;
+}
+
+main ul {
+  @apply space-y-1 max-w-md list-disc list-inside;
+}
+
+main a {
+  @apply text-blue-700;
+}

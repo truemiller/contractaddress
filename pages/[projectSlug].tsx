@@ -1,29 +1,8 @@
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
-import {
-  Alert,
-  Box,
-  Button,
-  Drawer,
-  Link,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemText,
-  Paper,
-  Snackbar,
-  Stack,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Toolbar,
-  Typography,
-} from "@mui/material";
 import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { Suspense, useMemo, useState } from "react";
 
@@ -54,7 +33,7 @@ const ProjectPage: NextPage = () => {
   }, [contracts]);
 
   return (
-    <>
+    <main>
       <Head>
         <title>{project?.name} Contract Addresses</title>
         <meta
@@ -64,62 +43,54 @@ const ProjectPage: NextPage = () => {
       </Head>
       {project && contracts ? (
         <>
-          <Box>
-            <Typography variant="h1">{project?.name}</Typography>
-            <Typography>
-              Find {numberOfContracts} contract addresses for {project?.name}.
-            </Typography>
-            <Typography variant="h2">Contract Addresses</Typography>
+          <h1>{project?.name}</h1>
+          <p>
+            Find {numberOfContracts} contract addresses for {project?.name}.
+          </p>
+          <h2>Contract Addresses</h2>
 
-            <ul>
-              {contracts.map((contractData: ContractData) => {
-                return (
-                  <li key={contractData.name}>
-                    <Link
-                      href={`#${contractData.name}`}
-                      style={{ textDecoration: "none" }}
-                    >
-                      {contractData?.name}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
+          <ul>
             {contracts.map((contractData: ContractData) => {
               return (
-                <>
-                  <Typography variant="h3" id={contractData.name}>
-                    {contractData.name}
-                  </Typography>
-                  <TableContainer component={Paper} elevation={0}>
-                    <Table size="small">
-                      <TableHead>
-                        <TableRow sx={{ background: "#eee" }}>
-                          <TableCell sx={{ fontWeight: "bolder" }}>
-                            Chain
-                          </TableCell>
-                          <TableCell sx={{ fontWeight: "bolder" }}>
-                            Address
-                          </TableCell>
-                        </TableRow>
-                      </TableHead>
-                      <TableBody>
-                        <ContractTableRows
-                          key={contractData.name}
-                          contractData={contractData}
-                        ></ContractTableRows>
-                      </TableBody>
-                    </Table>
-                  </TableContainer>
-                </>
+                <li key={contractData.name}>
+                  <Link
+                    href={`#${contractData.name}`}
+                    style={{ textDecoration: "none" }}
+                  >
+                    {contractData?.name}
+                  </Link>
+                </li>
               );
             })}
-          </Box>
+          </ul>
+          {contracts.map((contractData: ContractData) => {
+            return (
+              <section key={contractData.name}>
+                <h3 id={contractData.name}>{contractData.name}</h3>
+                <table>
+                  <thead>
+                    <tr style={{ background: "#eee" }}>
+                      <th style={{ fontWeight: "bolder", width: 300 }}>
+                        Chain
+                      </th>
+                      <th style={{ fontWeight: "bolder" }}>Address</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <ContractTableRows
+                      key={contractData.name}
+                      contractData={contractData}
+                    ></ContractTableRows>
+                  </tbody>
+                </table>
+              </section>
+            );
+          })}
         </>
       ) : (
         <Suspense>Loading ... </Suspense>
       )}
-    </>
+    </main>
   );
 };
 
@@ -148,9 +119,9 @@ const ContractTableRows = ({
           (blockchain) => blockchain.slug == contract.blockchainSlug
         );
         return (
-          <TableRow key={`${contract.blockchainSlug}-${contract.address}`}>
-            <TableCell>
-              <Stack direction={"row"}>
+          <tr key={`${contract.blockchainSlug}-${contract.address}`}>
+            <td>
+              <span>
                 <Image
                   src={`/logos/${contract.blockchainSlug}.webp`}
                   width={16}
@@ -159,10 +130,10 @@ const ContractTableRows = ({
                   style={{ marginRight: 5, borderRadius: "100%" }}
                 />
                 {blockchain?.name}
-              </Stack>
-            </TableCell>
-            <TableCell>
-              <Stack direction={"row"}>
+              </span>
+            </td>
+            <td>
+              <span>
                 {blockchain?.blockExplorer ? (
                   <Link
                     href={`${blockchain?.blockExplorer}${contract.address}`}
@@ -177,19 +148,11 @@ const ContractTableRows = ({
                   onClick={() => handleCopy(contract.address)}
                   sx={{ padding: 0.25, marginX: 1, cursor: "pointer" }}
                 />
-              </Stack>
-            </TableCell>
-          </TableRow>
+              </span>
+            </td>
+          </tr>
         );
       })}
-      <Snackbar
-        anchorOrigin={{ vertical: "top", horizontal: "center" }}
-        autoHideDuration={6000}
-        open={snackbarOpen}
-        onClose={() => setSnackbarOpen(false)}
-      >
-        <Alert severity="success">Copied to clipboard</Alert>
-      </Snackbar>
     </>
   );
 };

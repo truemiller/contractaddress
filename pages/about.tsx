@@ -16,26 +16,23 @@ const Home: NextPage = () => {
   return (
     <main className="container">
       <Head>
-        <title>Contract Address</title>
+        <title>About Contract Address</title>
         <meta
           name="description"
           content="Find contract addresses for popular crypto currency tokens and smart
         contracts."
         />
       </Head>
-      <h1>Contract Address</h1>
+      <h1>About Contract Address</h1>
       <p>
-        Find contract addresses for {Projects.length} cryptocurrency projects
+        We list contract addresses for {Projects.length} cryptocurrency projects
         across {Blockchains.length} blockchains.
       </p>
-      <h2>Projects</h2>
-      <ul>
-        {projects.map((project: any) => (
-          <li key={project.slug}>
-            <Link href={`/${project.slug}`}>{project.name}</Link>
-          </li>
-        ))}
-      </ul>
+      <p>Pretty simple really.</p>
+      <p>
+        <Link href={"https://t.me/truemiller1"}>Contract True Miller</Link> to
+        get your contracts listed.
+      </p>
     </main>
   );
 };
