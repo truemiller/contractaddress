@@ -20,6 +20,12 @@ export default function Navbar() {
           <Link href="/about" className="px-5 text-white">
             About
           </Link>
+          <Link href="https://cryptojobs.gg" className="px-5 text-white">
+            Crypto Jobs
+          </Link>
+          <Link href="https://rpc.info" className="px-5 text-white">
+            RPC Info
+          </Link>
         </div>
       </div>
     </nav>
